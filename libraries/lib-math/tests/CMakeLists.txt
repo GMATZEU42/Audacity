@@ -1,0 +1,12 @@
+add_unit_test(
+	NAME
+		lib-math
+	FWORK
+		"GTEST"
+	SOURCES
+		FFTTest.cpp
+		FFTTest.h
+	LIBRARIES
+		lib-math
+		wxwidgets::base
+)
