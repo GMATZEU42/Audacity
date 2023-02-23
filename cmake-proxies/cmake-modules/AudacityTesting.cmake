@@ -20,21 +20,38 @@ if( ${_OPT}has_tests )
       cmake_parse_arguments(
          ADD_UNIT_TEST # Prefix
          "" # Options
-         "NAME" # One value keywords
+         "NAME;FWORK" # One value keywords
          "SOURCES;LIBRARIES"
          ${ARGN}
       )
-
+	  
       if( NOT ADD_UNIT_TEST_NAME )
          message( FATAL_ERROR "Missing required NAME parameter for the add_unit_test")
       endif()
 
       set( test_executable_name "${ADD_UNIT_TEST_NAME}-test" )
 
-      # Create test executable
-
-      add_executable( ${test_executable_name} ${ADD_UNIT_TEST_SOURCES} "${CMAKE_SOURCE_DIR}/tests/Catch2Main.cpp")
-      target_link_libraries( ${test_executable_name} ${ADD_UNIT_TEST_LIBRARIES} Catch2::Catch2 )
+	  message("AudacityTesting_Checkpoint")
+      # Create test executable	  
+	  if(${ADD_UNIT_TEST_FWORK} MATCHES "GTEST")
+		set( GTEST_INCLUDE_DIR
+			${CMAKE_SOURCE_DIR}/googletest/googletest/include/
+		)
+		set( GTEST_LIBS
+			debug ${CMAKE_SOURCE_DIR}/googletest/lib/Debug/gtest.lib 
+			debug ${CMAKE_SOURCE_DIR}/googletest/lib/Debug/gtest_main.lib
+			optimized ${CMAKE_SOURCE_DIR}/googletest/lib/Release/gtest.lib
+			optimized ${CMAKE_SOURCE_DIR}/googletest/lib/Release/gtest_main.lib
+		)		
+		include_directories(${GTEST_INCLUDE_DIR})
+		add_executable( ${test_executable_name} ${ADD_UNIT_TEST_SOURCES} "${CMAKE_SOURCE_DIR}/googletest/GTestMain.cpp")				
+		set_property(TARGET ${test_executable_name} PROPERTY MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+		target_link_libraries(${test_executable_name} ${ADD_UNIT_TEST_LIBRARIES} ${GTEST_LIBS})
+	  else()	  
+		add_executable( ${test_executable_name} ${ADD_UNIT_TEST_SOURCES} "${CMAKE_SOURCE_DIR}/tests/Catch2Main.cpp")
+		target_link_libraries( ${test_executable_name} ${ADD_UNIT_TEST_LIBRARIES} Catch2::Catch2 )
+	  endif()
+		
 
       set( OPTIONS )
       audacity_append_common_compiler_options( OPTIONS NO )
