@@ -1,0 +1,10 @@
+^C:\WORKSPACE\AUDACITY\VISUAL_STUDIO\LIB-SRC\PORTMIXER\WINMME_CHECK\CMAKEFILES\AD861DE34B06FFA2A5F398EC8CAE8421\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity/lib-src/portmixer/cmake/CheckPaWinMME_GetStreamInputHandle -BC:/Workspace/audacity/visual_studio/lib-src/portmixer/winmme_check --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Workspace/audacity/visual_studio/lib-src/portmixer/winmme_check/CheckPaWinMME_GetStreamInputHandle.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

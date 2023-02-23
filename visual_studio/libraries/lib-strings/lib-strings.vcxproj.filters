@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-strings\Base64.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-strings\Identifier.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-strings\Internat.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-strings\Languages.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-strings\TranslatableString.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-strings\wxArrayStringEx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-strings\Base64.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-strings\FutureStrings.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-strings\Identifier.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-strings\Internat.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-strings\Languages.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-strings\TranslatableString.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-strings\wxArrayStringEx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\libraries\lib-strings\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

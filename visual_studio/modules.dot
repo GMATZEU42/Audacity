@@ -1,0 +1,138 @@
+digraph {
+   graph [rankdir=LR] edge [dir=both,arrowtail=inv] 
+"lib-string-utils" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-string-utils" -> "wxBase" 
+"lib-strings" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-strings" -> "wxBase" 
+"lib-utility" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-uuid" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-uuid" -> "Rpcrt4"  [style=dashed]
+"lib-uuid" -> "lib-string-utils"  [style=dashed]
+"lib-uuid" -> "lib-utility"  [style=dashed]
+"lib-components" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-components" -> "lib-strings" 
+"lib-components" -> "lib-utility" 
+"lib-basic-ui" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-basic-ui" -> "lib-strings" 
+"lib-exceptions" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-exceptions" -> "lib-utility" 
+"lib-exceptions" -> "lib-basic-ui" 
+"lib-preferences" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-preferences" -> "lib-basic-ui" 
+"lib-preferences" -> "lib-components" 
+"lib-math" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-math" -> "libsoxr" 
+"lib-math" -> "lib-preferences" 
+"lib-files" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-files" -> "lib-exceptions" 
+"lib-files" -> "lib-preferences" 
+"lib-ipc" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-ipc" -> "lib-utility" 
+"lib-ipc" -> "wsock32"  [style=dashed]
+"lib-ipc" -> "ws2_32"  [style=dashed]
+"lib-registries" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-registries" -> "lib-preferences" 
+"lib-registries" -> "lib-exceptions" 
+"lib-xml" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-xml" -> "lib-files" 
+"lib-xml" -> "lib-string-utils" 
+"lib-xml" -> "expat::expat" 
+"lib-audio-devices" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-audio-devices" -> "portaudio::portaudio" 
+"lib-audio-devices" -> "portmixer" 
+"lib-audio-devices" -> "lib-preferences" 
+"lib-project" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-project" -> "lib-registries" 
+"lib-project" -> "lib-xml" 
+"lib-screen-geometry" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-screen-geometry" -> "lib-project" 
+"lib-project-rate" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-project-rate" -> "lib-project" 
+"lib-project-rate" -> "lib-audio-devices" 
+"lib-project-rate" -> "lib-math" 
+"lib-ffmpeg-support" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-ffmpeg-support" -> "lib-files"  [style=dashed]
+"lib-ffmpeg-support" -> "lib-math"  [style=dashed]
+"lib-theme" [shape=octagon style=filled fillcolor=lightpink]
+"lib-theme" -> "lib-files" 
+"lib-theme" -> "wxwidgets::wxwidgets" 
+"lib-theme-resources" [shape=octagon style=filled fillcolor=lightpink]
+"lib-theme-resources" -> "lib-theme" 
+"lib-track" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-track" -> "lib-project" 
+"lib-transactions" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-transactions" -> "lib-exceptions" 
+"lib-sample-track" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-sample-track" -> "lib-audio-graph" 
+"lib-module-manager" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-module-manager" -> "lib-xml" 
+"lib-module-manager" -> "lib-ipc" 
+"lib-project-history" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-project-history" -> "lib-screen-geometry" 
+"lib-project-history" -> "lib-track" 
+"lib-project-history" -> "lib-transactions" 
+"lib-graphics" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-graphics" -> "lib-utility"  [style=dashed]
+"lib-audio-graph" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-audio-graph" -> "lib-math" 
+"lib-audio-graph" -> "lib-track" 
+"lib-tags" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-tags" -> "lib-project-history" 
+"lib-realtime-effects" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-realtime-effects" -> "lib-math" 
+"lib-realtime-effects" -> "lib-module-manager" 
+"lib-realtime-effects" -> "lib-project-history" 
+"lib-audio-io" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-audio-io" -> "lib-project-rate" 
+"lib-audio-io" -> "lib-realtime-effects" 
+"lib-audio-io" -> "lib-sample-track" 
+"lib-wave-track" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-wave-track" -> "lib-project-rate" 
+"lib-wave-track" -> "lib-realtime-effects" 
+"lib-wave-track" -> "lib-sample-track" 
+"lib-wave-track" -> "lib-track-selection" 
+"lib-track-selection" [shape=octagon style=filled fillcolor=lightgreen]
+"lib-track-selection" -> "lib-screen-geometry" 
+"lib-track-selection" -> "lib-track" 
+Audacity [shape=house style=filled fillcolor=lightpink]
+"Audacity" -> "ZLIB::ZLIB"
+"Audacity" -> "libmp3lame::libmp3lame"
+"Audacity" -> "SndFile::sndfile"
+"Audacity" -> "sqlite"
+"Audacity" -> "base"
+"Audacity" -> "pluginterfaces"
+"Audacity" -> "sdk_hosting"
+"Audacity" -> "sdk_common"
+"Audacity" -> "libid3tag"
+"Audacity" -> "FLAC"
+"Audacity" -> "FLAC++"
+"Audacity" -> "libmad"
+"Audacity" -> "libmpg123"
+"Audacity" -> "wavpack"
+"Audacity" -> "ogg"
+"Audacity" -> "vorbis"
+"Audacity" -> "vorbisfile"
+"Audacity" -> "vorbisenc"
+"Audacity" -> "opus"
+"Audacity" -> "twolame"
+"Audacity" -> "lv2"
+"Audacity" -> "portmidi"
+"Audacity" -> "portsmf"
+"Audacity" -> "libnyquist"
+"Audacity" -> "libsbsms"
+"Audacity" -> "soundtouch"
+"Audacity" -> "libvamp"
+"Audacity" -> "GLIB"
+"Audacity" -> "GTK"
+"Audacity" -> "Threads"
+"Audacity" -> "lib-uuid"
+"Audacity" -> "lib-theme-resources"
+"Audacity" -> "lib-graphics"
+"Audacity" -> "lib-tags"
+"Audacity" -> "lib-audio-io"
+"Audacity" -> "lib-wave-track"
+"Audacity" -> "lib-ffmpeg-support"
+"Audacity" -> "lib-sentry-reporting"
+"mod-script-pipe" [shape=box style=filled fillcolor=lightpink]
+"mod-script-pipe" -> "Audacity" 
+}

@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Workspace/audacity/cmake-proxies/libsoxr/CMakeLists.txt
+C:/Workspace/audacity/cmake-proxies/libsoxr/soxr-config.h.in
+C:/Workspace/audacity/lib-src/libsoxr/cmake/Modules/FindCFlags.cmake
+C:/Workspace/audacity/lib-src/libsoxr/cmake/Modules/FindSIMD32.cmake

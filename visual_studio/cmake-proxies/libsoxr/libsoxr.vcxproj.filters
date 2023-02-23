@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\cr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\cr32.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\cr32s.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\cr64.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\data-io.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\dbesi0.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\fft4g.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\fft4g32.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\fft4g64.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\filter.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\pffft32s.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\soxr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\util32s.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libsoxr\src\vr32.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\cmake-proxies\libsoxr\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B8C2D02-6556-321F-8E2F-C283746BEB9B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-string-utils\UrlEncode.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-string-utils\UrlDecode.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-string-utils\CodeConversions.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-string-utils\DateTimeConversions.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-string-utils\ToChars.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-string-utils\FromChars.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-string-utils\HexHelpers.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-string-utils\UrlEncode.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-string-utils\UrlDecode.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-string-utils\CodeConversions.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-string-utils\DateTimeConversions.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-string-utils\ToChars.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-string-utils\FromChars.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\libraries\lib-string-utils\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

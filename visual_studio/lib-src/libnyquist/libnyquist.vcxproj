@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{59F66655-A88D-3F2D-8468-9231450ED32F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>libnyquist</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\lib-src\libnyquist\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libnyquist.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libnyquist</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\lib-src\libnyquist\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libnyquist.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libnyquist</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\lib-src\libnyquist\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libnyquist.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libnyquist</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\lib-src\libnyquist\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libnyquist.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libnyquist</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/9bf5a005c0dddcd2e0ae3def03324e272eaeae9a/include" /external:I "C:/Users/giaco/.conan/data/libsndfile/1.0.31/_/_/package/523468543eb72e6b4139b60bf776f81f4569cfb1/include" /external:I "C:/Users/giaco/.conan/data/ogg/1.3.4/_/_/package/bf9ec17af5844bd8d3cc139070000dc26fc5f076/include" /external:I "C:/Users/giaco/.conan/data/vorbis/1.3.7/_/_/package/55bf2fe3e779e422407291d2c6953b77008f8baa/include" /external:I "C:/Users/giaco/.conan/data/flac/1.3.3/_/_/package/55bf2fe3e779e422407291d2c6953b77008f8baa/include" /external:I "C:/Users/giaco/.conan/data/opus/1.3.1/_/_/package/bf9ec17af5844bd8d3cc139070000dc26fc5f076/include" /external:I "C:/Users/giaco/.conan/data/opus/1.3.1/_/_/package/bf9ec17af5844bd8d3cc139070000dc26fc5f076/include/opus"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;USE_NYQUIST=1;CMTSTUFF;EXT;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;_DEBUG;WIN32;_WINDOWS;USE_NYQUIST=1;CMTSTUFF;EXT;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\9bf5a005c0dddcd2e0ae3def03324e272eaeae9a\include;C:\Users\giaco\.conan\data\libsndfile\1.0.31\_\_\package\523468543eb72e6b4139b60bf776f81f4569cfb1\include;C:\Users\giaco\.conan\data\ogg\1.3.4\_\_\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\include;C:\Users\giaco\.conan\data\vorbis\1.3.7\_\_\package\55bf2fe3e779e422407291d2c6953b77008f8baa\include;C:\Users\giaco\.conan\data\flac\1.3.3\_\_\package\55bf2fe3e779e422407291d2c6953b77008f8baa\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\include\opus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\9bf5a005c0dddcd2e0ae3def03324e272eaeae9a\include;C:\Users\giaco\.conan\data\libsndfile\1.0.31\_\_\package\523468543eb72e6b4139b60bf776f81f4569cfb1\include;C:\Users\giaco\.conan\data\ogg\1.3.4\_\_\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\include;C:\Users\giaco\.conan\data\vorbis\1.3.7\_\_\package\55bf2fe3e779e422407291d2c6953b77008f8baa\include;C:\Users\giaco\.conan\data\flac\1.3.3\_\_\package\55bf2fe3e779e422407291d2c6953b77008f8baa\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\include\opus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/f8004b13ba3d25eb6354835cd3e9101dc2e51cac/include" /external:I "C:/Users/giaco/.conan/data/libsndfile/1.0.31/_/_/package/899d2c53f1b9e4a7deb461e3cf1716f2d4fd697d/include" /external:I "C:/Users/giaco/.conan/data/ogg/1.3.4/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/vorbis/1.3.7/_/_/package/3b26581a680ab99eb0ef725aa935a0289708df91/include" /external:I "C:/Users/giaco/.conan/data/flac/1.3.3/_/_/package/3b26581a680ab99eb0ef725aa935a0289708df91/include" /external:I "C:/Users/giaco/.conan/data/opus/1.3.1/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/opus/1.3.1/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include/opus"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_NYQUIST=1;CMTSTUFF;EXT;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;WIN32;_WINDOWS;NDEBUG;USE_NYQUIST=1;CMTSTUFF;EXT;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;C:\Users\giaco\.conan\data\libsndfile\1.0.31\_\_\package\899d2c53f1b9e4a7deb461e3cf1716f2d4fd697d\include;C:\Users\giaco\.conan\data\ogg\1.3.4\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\vorbis\1.3.7\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\flac\1.3.3\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include\opus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;C:\Users\giaco\.conan\data\libsndfile\1.0.31\_\_\package\899d2c53f1b9e4a7deb461e3cf1716f2d4fd697d\include;C:\Users\giaco\.conan\data\ogg\1.3.4\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\vorbis\1.3.7\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\flac\1.3.3\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include\opus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/f8004b13ba3d25eb6354835cd3e9101dc2e51cac/include" /external:I "C:/Users/giaco/.conan/data/libsndfile/1.0.31/_/_/package/899d2c53f1b9e4a7deb461e3cf1716f2d4fd697d/include" /external:I "C:/Users/giaco/.conan/data/ogg/1.3.4/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/vorbis/1.3.7/_/_/package/3b26581a680ab99eb0ef725aa935a0289708df91/include" /external:I "C:/Users/giaco/.conan/data/flac/1.3.3/_/_/package/3b26581a680ab99eb0ef725aa935a0289708df91/include" /external:I "C:/Users/giaco/.conan/data/opus/1.3.1/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/opus/1.3.1/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include/opus"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_NYQUIST=1;CMTSTUFF;EXT;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;WIN32;_WINDOWS;NDEBUG;USE_NYQUIST=1;CMTSTUFF;EXT;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;C:\Users\giaco\.conan\data\libsndfile\1.0.31\_\_\package\899d2c53f1b9e4a7deb461e3cf1716f2d4fd697d\include;C:\Users\giaco\.conan\data\ogg\1.3.4\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\vorbis\1.3.7\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\flac\1.3.3\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include\opus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;C:\Users\giaco\.conan\data\libsndfile\1.0.31\_\_\package\899d2c53f1b9e4a7deb461e3cf1716f2d4fd697d\include;C:\Users\giaco\.conan\data\ogg\1.3.4\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\vorbis\1.3.7\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\flac\1.3.3\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include\opus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/f8004b13ba3d25eb6354835cd3e9101dc2e51cac/include" /external:I "C:/Users/giaco/.conan/data/libsndfile/1.0.31/_/_/package/899d2c53f1b9e4a7deb461e3cf1716f2d4fd697d/include" /external:I "C:/Users/giaco/.conan/data/ogg/1.3.4/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/vorbis/1.3.7/_/_/package/3b26581a680ab99eb0ef725aa935a0289708df91/include" /external:I "C:/Users/giaco/.conan/data/flac/1.3.3/_/_/package/3b26581a680ab99eb0ef725aa935a0289708df91/include" /external:I "C:/Users/giaco/.conan/data/opus/1.3.1/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/opus/1.3.1/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include/opus"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_NYQUIST=1;CMTSTUFF;EXT;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;WIN32;_WINDOWS;NDEBUG;USE_NYQUIST=1;CMTSTUFF;EXT;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;C:\Users\giaco\.conan\data\libsndfile\1.0.31\_\_\package\899d2c53f1b9e4a7deb461e3cf1716f2d4fd697d\include;C:\Users\giaco\.conan\data\ogg\1.3.4\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\vorbis\1.3.7\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\flac\1.3.3\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include\opus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt;C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk;C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\include;C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran;C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp;C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc;C:\Workspace\audacity\lib-src\libnyquist;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;C:\Users\giaco\.conan\data\libsndfile\1.0.31\_\_\package\899d2c53f1b9e4a7deb461e3cf1716f2d4fd697d\include;C:\Users\giaco\.conan\data\ogg\1.3.4\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\vorbis\1.3.7\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\flac\1.3.3\_\_\package\3b26581a680ab99eb0ef725aa935a0289708df91\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\opus\1.3.1\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include\opus;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\lib-src\libnyquist\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Workspace/audacity/lib-src/libnyquist/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/lib-src/libnyquist/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\lib-src\libnyquist\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Workspace/audacity/lib-src/libnyquist/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/lib-src/libnyquist/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\lib-src\libnyquist\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Workspace/audacity/lib-src/libnyquist/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/lib-src/libnyquist/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\lib-src\libnyquist\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Workspace/audacity/lib-src/libnyquist/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/lib-src/libnyquist/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\lib-src\libnyquist\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyx.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\cext.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\cleanup.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\cmdline.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\cmtcmd.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\mem.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\midifile.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\midifns.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\moxc.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\record.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\seq.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\seqmread.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\seqmwrite.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\seqread.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\seqwrite.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\tempomap.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\timebase.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmt\userio.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src\cmupv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src\cmupvdbg.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\cmupv\src\internal.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src\fftext.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src\fftlib.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\ffts\src\matlib.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\add.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\avg.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\compose.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\convolve.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\debug.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\downsample.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\f0.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\falloc.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\ffilterkit.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\fft.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\handlers.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\inverse.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\local.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\lpanal.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\multiread.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\multiseq.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\phasevocoder.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\probe.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\pvshell.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\resamp.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\resampv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\samples.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\seqext.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\seqfnint.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\seqinterf.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\sliderdata.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\sndfnint.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\sndmax.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\sndread.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\sndseq.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\sndsliders.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\sndwritepa.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\sound.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\stats.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\stoponzero.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\trigger.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqsrc\yin.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\instr.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\stkinit.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\stkint.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\ADSR.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\BandedWG.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\BiQuad.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Bowed.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\BowTable.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Chorus.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Clarinet.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Delay.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\DelayA.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\DelayL.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Effect.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Envelope.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\FileRead.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\FileWvIn.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Filter.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Flute.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Function.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Generator.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Instrmnt.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\JCRev.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\JetTable.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Mandolin.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Modal.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\ModalBar.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Noise.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\NRev.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\OnePole.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\OneZero.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\PitShift.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\PluckTwo.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\PoleZero.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\PRCRev.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\ReedTable.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Saxofony.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\SineWave.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Sitar.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\Stk.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\WaveLoop.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\nyqstk\src\WvIn.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\abs.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\allpoles.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\alpass.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\alpasscv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\alpassvc.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\alpassvv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\amosc.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\areson.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\aresoncv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\aresonvc.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\aresonvv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\atone.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\atonev.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\biquadfilt.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\buzz.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\chase.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\clip.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\congen.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\const.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\coterm.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\delaycc.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\delaycv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\eqbandvvv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\exp.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\fmfb.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\fmfbv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\fmosc.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\follow.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\fromarraystream.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\fromobject.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\gate.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\ifft.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrbanded.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrbow.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrbowedfreq.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrclar.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrclarall.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrclarfreq.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrflute.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrfluteall.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrflutefreq.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrmandolin.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrmodalbar.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrsax.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrsaxall.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrsaxfreq.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\instrsitar.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\integrate.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\log.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\lpreson.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\maxv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\offset.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\oneshot.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\osc.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\partial.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\pluck.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\prod.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\pwl.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\quantize.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\recip.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\reson.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\resoncv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\resonvc.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\resonvv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\sampler.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\scale.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\shape.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\sine.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\siosc.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\slope.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\sqrt.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\stkchorus.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\stkpitshift.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\stkrev.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\tapf.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\tapv.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\tone.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\tonev.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\upsample.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\tran\white.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\extern.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\path.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\security.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlbfun.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlcont.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xldbug.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xldmem.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xleval.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlfio.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlftab.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlglob.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlimage.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlinit.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlio.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlisp.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xljump.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xllist.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlmath.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlobj.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlpp.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlprin.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlread.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlstr.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlsubr.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlsym.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\xlisp\xlsys.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\ZERO_CHECK.vcxproj">
+      <Project>{5C83DB05-B105-3759-BC44-A10D37C5FC96}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

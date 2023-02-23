@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\modules\mod-script-pipe\PipeServer.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\modules\mod-script-pipe\ScripterCallback.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-sentry-reporting\SentryHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\modules\mod-script-pipe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{248BBF7D-3561-313C-8DAC-89ADDEC237F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

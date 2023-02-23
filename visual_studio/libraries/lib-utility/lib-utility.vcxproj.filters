@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-utility\BufferedStreamReader.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-utility\CommandLineArgs.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-utility\MemoryX.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-utility\ModuleConstants.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-utility\MemoryStream.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-utility\Observer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\BufferedStreamReader.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\CommandLineArgs.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\CFResources.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\GlobalVariable.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\MemoryX.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\MessageBuffer.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\ModuleConstants.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\MemoryStream.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\Observer.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\PackedArray.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\spinlock.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-utility\TypedAny.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\libraries\lib-utility\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

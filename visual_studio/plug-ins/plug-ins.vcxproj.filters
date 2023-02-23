@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\SpectralEditMulti.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\SpectralEditParametricEQ.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\SpectralEditShelves.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\StudioFadeOut.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\adjustable-fade.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\beat.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\clipfix.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\crossfadeclips.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\crossfadetracks.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\delay.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\eq-xml-to-txt-converter.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\equalabel.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\highpass.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\label-sounds.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\limiter.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\lowpass.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\noisegate.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\notch.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\nyquist-plug-in-installer.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\pluck.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\rhythmtrack.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\rissetdrum.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\rms.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\sample-data-export.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\sample-data-import.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\spectral-delete.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\tremolo.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\vocalrediso.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\vocoder.ny.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\6a4bd5012e8705a64782a579eb3030ca\plug-ins.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\plug-ins\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Workspace\audacity\plug-ins\SpectralEditMulti.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\SpectralEditParametricEQ.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\SpectralEditShelves.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\StudioFadeOut.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\adjustable-fade.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\beat.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\clipfix.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\crossfadeclips.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\crossfadetracks.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\delay.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\eq-xml-to-txt-converter.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\equalabel.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\highpass.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\label-sounds.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\limiter.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\lowpass.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\noisegate.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\notch.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\nyquist-plug-in-installer.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\pluck.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\rhythmtrack.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\rissetdrum.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\rms.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\sample-data-export.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\sample-data-import.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\spectral-delete.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\tremolo.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\vocalrediso.ny" />
+    <None Include="C:\Workspace\audacity\plug-ins\vocoder.ny" />
+    <None Include="C:\Workspace\audacity\visual_studio\plug-ins\CMakeFiles\plug-ins" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{056F32F2-F9F5-30FA-8D64-BC3D98460815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\WORKSPACE\AUDACITY\LIB-SRC\PORTMIXER\CMAKE\CHECKPAWINDS_GETDEVICEGUID\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity/lib-src/portmixer/cmake/CheckPaWinDS_GetDeviceGUID -BC:/Workspace/audacity/visual_studio/lib-src/portmixer/winds_getguid_check --check-stamp-file C:/Workspace/audacity/visual_studio/lib-src/portmixer/winds_getguid_check/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

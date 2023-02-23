@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\ath.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\availbits.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\bitbuffer.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\crc.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\dab.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\encode.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\energy.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\fft.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\get_set.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\mem.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\psycho_0.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\psycho_1.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\psycho_2.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\psycho_3.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\psycho_4.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\psycho_n1.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\subband.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\twolame.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\twolame\libtwolame\util.c">
+      <Filter>libtwolame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\cmake-proxies\twolame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libtwolame">
+      <UniqueIdentifier>{E4FD1179-5E3A-333F-9E86-6D7177BE5989}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

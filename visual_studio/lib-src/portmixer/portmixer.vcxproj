@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6A0B0EF5-A772-3374-96DA-09DADFE16F60}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>portmixer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\lib-src\portmixer\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">portmixer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">portmixer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\lib-src\portmixer\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">portmixer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">portmixer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\lib-src\portmixer\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">portmixer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">portmixer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\lib-src\portmixer\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">portmixer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">portmixer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/9bf5a005c0dddcd2e0ae3def03324e272eaeae9a/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;USE_PORTMIXER=1;PX_USE_WIN_DSOUND=1;PX_USE_WIN_WASAPI=1;PX_USE_WIN_MME=1;PX_PAWINMME_GETSTREAMINPUTHANDLE_EXISTS=1;PX_PAWINDS_GETDEVICEGUID_EXISTS=1;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;_DEBUG;WIN32;_WINDOWS;USE_PORTMIXER=1;PX_USE_WIN_DSOUND=1;PX_USE_WIN_WASAPI=1;PX_USE_WIN_MME=1;PX_PAWINMME_GETSTREAMINPUTHANDLE_EXISTS=1;PX_PAWINDS_GETDEVICEGUID_EXISTS=1;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\9bf5a005c0dddcd2e0ae3def03324e272eaeae9a\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\9bf5a005c0dddcd2e0ae3def03324e272eaeae9a\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/f8004b13ba3d25eb6354835cd3e9101dc2e51cac/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_PORTMIXER=1;PX_USE_WIN_DSOUND=1;PX_USE_WIN_WASAPI=1;PX_USE_WIN_MME=1;PX_PAWINMME_GETSTREAMINPUTHANDLE_EXISTS=1;PX_PAWINDS_GETDEVICEGUID_EXISTS=1;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;WIN32;_WINDOWS;NDEBUG;USE_PORTMIXER=1;PX_USE_WIN_DSOUND=1;PX_USE_WIN_WASAPI=1;PX_USE_WIN_MME=1;PX_PAWINMME_GETSTREAMINPUTHANDLE_EXISTS=1;PX_PAWINDS_GETDEVICEGUID_EXISTS=1;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/f8004b13ba3d25eb6354835cd3e9101dc2e51cac/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_PORTMIXER=1;PX_USE_WIN_DSOUND=1;PX_USE_WIN_WASAPI=1;PX_USE_WIN_MME=1;PX_PAWINMME_GETSTREAMINPUTHANDLE_EXISTS=1;PX_PAWINDS_GETDEVICEGUID_EXISTS=1;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;WIN32;_WINDOWS;NDEBUG;USE_PORTMIXER=1;PX_USE_WIN_DSOUND=1;PX_USE_WIN_WASAPI=1;PX_USE_WIN_MME=1;PX_PAWINMME_GETSTREAMINPUTHANDLE_EXISTS=1;PX_PAWINDS_GETDEVICEGUID_EXISTS=1;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/f8004b13ba3d25eb6354835cd3e9101dc2e51cac/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_PORTMIXER=1;PX_USE_WIN_DSOUND=1;PX_USE_WIN_WASAPI=1;PX_USE_WIN_MME=1;PX_PAWINMME_GETSTREAMINPUTHANDLE_EXISTS=1;PX_PAWINDS_GETDEVICEGUID_EXISTS=1;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;WIN32;_WINDOWS;NDEBUG;USE_PORTMIXER=1;PX_USE_WIN_DSOUND=1;PX_USE_WIN_WASAPI=1;PX_USE_WIN_MME=1;PX_PAWINMME_GETSTREAMINPUTHANDLE_EXISTS=1;PX_PAWINDS_GETDEVICEGUID_EXISTS=1;EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\lib-src\portmixer\src;C:\Workspace\audacity\lib-src\portmixer\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\lib-src\portmixer\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Workspace/audacity/lib-src/portmixer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/lib-src/portmixer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\lib-src\portmixer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Workspace/audacity/lib-src/portmixer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/lib-src/portmixer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\lib-src\portmixer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Workspace/audacity/lib-src/portmixer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/lib-src/portmixer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\lib-src\portmixer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Workspace/audacity/lib-src/portmixer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/lib-src/portmixer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\lib-src\portmixer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\portmixer\include\portmixer.h" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\portmixer\src\px_mixer.c" />
+    <ClInclude Include="C:\Workspace\audacity\lib-src\portmixer\src\px_mixer.h" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\portmixer\src\px_win_common.c" />
+    <ClInclude Include="C:\Workspace\audacity\lib-src\portmixer\src\px_win_common.h" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\portmixer\src\px_win_ds.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\portmixer\src\px_win_wasapi.c" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\portmixer\src\px_win_endpoint.c" />
+    <ClInclude Include="C:\Workspace\audacity\lib-src\portmixer\src\px_win_endpoint.h" />
+    <ClCompile Include="C:\Workspace\audacity\lib-src\portmixer\src\px_win_wmme.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\ZERO_CHECK.vcxproj">
+      <Project>{5C83DB05-B105-3759-BC44-A10D37C5FC96}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

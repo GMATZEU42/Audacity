@@ -1,0 +1,2697 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\visual_studio\src\CMakeFiles\Audacity.dir\cmake_pch.cxx">
+      <Filter>CMake\CMakeFiles\Audacity.dir</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ActiveProject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ActiveProjects.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\AboutDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\AboutDialogGPLv3Text.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\AdornedRulerPanel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\AudacityApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\AudacityFileConfig.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\AudacityHeaders.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\AudioPasteDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\AutoRecoveryDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\BatchCommandDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\BatchCommands.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\BatchProcessDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Benchmark.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\CellularPanel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Clipboard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\CommonCommandFlags.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\CrashReport.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\DBConnection.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\DefaultPlaybackPolicy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Diags.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\DropTarget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\DropoutDetector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\EffectPlugin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\EnvelopeEditor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\FFmpeg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\FileFormats.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\FrameStatisticsDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\FreqWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\HelpText.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\HelpUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\HistoryWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\IncompatiblePluginsDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Journal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\JournalEvents.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\JournalOutput.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\JournalRegistry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\JournalWindowPaths.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\KeyboardCapture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\LabelDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\LabelTrack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\LangChoice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Legacy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\LogWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Lyrics.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\LyricsWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Menus.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\MIDIPlay.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\MixerBoard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\NoteTrack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\PitchName.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\PluginRegistrationDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\PluginStartupRegistration.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Printing.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Profiler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ProjectAudioManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ProjectFileIO.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ProjectFileManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ProjectManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ProjectSelectionManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ProjectSerializer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ProjectSettings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ProjectWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ProjectWindowBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ProjectWindows.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\RealtimeEffectPanel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Screenshot.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ScrubState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\SelectUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\SelectFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Shuttle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ShuttleAutomation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ShuttleGetDefinition.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ShuttleGui.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ShuttlePrefs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\Snap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\SoundActivatedRecord.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\SpectralDataDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\SpectralDataManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\SpectrumAnalyst.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\SpectrumTransformer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\SplashDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\SqliteSampleBlock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\SseMathFuncs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TagsEditor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TimeDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TimeTrack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TimerRecordDialog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TrackArt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TrackArtist.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TrackInfo.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TrackPanel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TrackPanelAx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TrackPanelCell.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TrackPanelDrawable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TrackPanelResizeHandle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TrackPanelResizerCell.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TrackUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\UIHandle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\TransportUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\VoiceKey.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\WaveTrackLocation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\WrappedType.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\AppCommandEvent.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\AudacityCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\BatchEvalCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\Command.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CommandBuilder.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CommandContext.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CommandDirectory.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CommandFlag.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CommandDispatch.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CommandHandler.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CommandManager.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CommandSignature.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CommandTargets.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CommandType.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\CompareAudioCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\Demo.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\DragCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\GetInfoCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\GetTrackInfoCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\HelpCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\ImportExportCommands.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\Keyboard.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\LoadCommands.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\MessageCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\OpenSaveCommands.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\PreferenceCommands.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\ResponseQueue.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\ScreenshotCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\ScriptCommandRelay.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\SelectCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\SetClipCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\SetEnvelopeCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\SetLabelCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\SetProjectCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\commands\SetTrackInfoCommand.cpp">
+      <Filter>src\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Amplify.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\AnalysisTracks.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\AutoDuck.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\BasicEffectUIServices.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\BassTreble.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Biquad.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\ChangePitch.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\ChangeSpeed.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\ChangeTempo.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\ClickRemoval.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Compressor.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Contrast.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Distortion.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\DtmfGen.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EBUR128.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Echo.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Effect.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EffectBase.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EffectEditor.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EffectManager.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EffectUI.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EffectUIServices.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Equalization.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Equalization48x.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EqualizationBandSliders.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EqualizationCurves.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EqualizationCurvesDialog.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EqualizationCurvesList.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EqualizationFilter.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EqualizationPanel.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EqualizationParameters.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\EqualizationUI.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Fade.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\FindClipping.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Generator.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Invert.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\LoadEffects.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Loudness.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Noise.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\NoiseReduction.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\NoiseRemoval.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Normalize.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Paulstretch.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\PerTrackEffect.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Phaser.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\RealtimeEffectStateUI.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Repair.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Repeat.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Reverb.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Reverse.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\SBSMSEffect.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\ScienFilter.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\ScoreAlignDialog.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Silence.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\SimpleMono.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\SoundTouchEffect.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\StatefulEffect.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\StatefulEffectBase.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\StatefulEffectUIServices.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\StatefulPerTrackEffect.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\StatelessPerTrackEffect.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\StereoToMono.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\TimeScale.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\ToneGen.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\TruncSilence.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\TwoPassSimpleMono.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\Wahwah.cpp">
+      <Filter>src\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST\VSTEffect.cpp">
+      <Filter>src\effects\VST</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST\VSTControlMSW.cpp">
+      <Filter>src\effects\VST</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\AudacityVst3HostApplication.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\memorystream.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\VST3Editor.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\VST3Effect.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\VST3EffectsModule.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\VST3Instance.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\VST3Utils.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\VST3Wrapper.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\VST3OptionsDialog.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\VST3ParametersWindow.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\internal\ConnectionProxy.cpp">
+      <Filter>src\effects\VST3\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\internal\PlugFrame.cpp">
+      <Filter>src\effects\VST3\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\VST3\module_win32.cpp">
+      <Filter>src\effects\VST3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\ladspa\LadspaEffect.cpp">
+      <Filter>src\effects\ladspa</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2Editor.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2Effect.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2EffectMeter.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2FeaturesList.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2Instance.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2InstanceFeaturesList.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2Ports.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2Preferences.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2Symbols.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2UIFeaturesList.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LV2Wrapper.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\LoadLV2.cpp">
+      <Filter>src\effects\lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\lv2\zix\ring.cpp">
+      <Filter>src\effects\lv2\zix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\nyquist\LoadNyquist.cpp">
+      <Filter>src\effects\nyquist</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\nyquist\Nyquist.cpp">
+      <Filter>src\effects\nyquist</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\vamp\LoadVamp.cpp">
+      <Filter>src\effects\vamp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\effects\vamp\VampEffect.cpp">
+      <Filter>src\effects\vamp</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\Export.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportCL.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportMP3.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportMultiple.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportPCM.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportFFmpeg.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportFFmpegDialogs.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportFLAC.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportMP2.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportWavPack.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportOGG.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\FormatClassifier.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\Import.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\MultiFormatReader.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\RawAudioGuess.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\SpecPowerMeter.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportAUP.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportLOF.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportPCM.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportPlugin.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportRaw.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportFFmpeg.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportFLAC.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\export\ExportMIDI.cpp">
+      <Filter>src\export</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportMIDI.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportMP3_MPG123.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportWavPack.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\import\ImportOGG.cpp">
+      <Filter>src\import</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\ClipMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\EditMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\ExtraMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\FileMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\HelpMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\LabelMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\NavigationMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\PluginMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\SelectMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\ToolbarMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\TrackMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\TransportMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\menus\ViewMenus.cpp">
+      <Filter>src\menus</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\BatchPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\DevicePrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\DirectoriesPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\EffectsPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\ExtImportPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\GUIPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\GUISettings.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\ImportExportPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\KeyConfigPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\LibraryPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\MidiIOPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\ModulePrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\MousePrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\PlaybackPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\PrefsDialog.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\PrefsPanel.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\QualityPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\RecordingPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\SpectrogramSettings.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\SpectrumPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\ThemePrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\TracksBehaviorsPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\TracksPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\WarningsPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\WaveformPrefs.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\prefs\WaveformSettings.cpp">
+      <Filter>src\prefs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\AudioSetupToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\CutCopyPasteToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\ControlToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\DeviceToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\EditToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\MeterToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\ScrubbingToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\SelectionBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\SpectralSelectionBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\TimeToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\ToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\ToolBarButtons.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\ToolDock.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\ToolManager.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\ToolsToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\toolbars\TranscriptionToolBar.cpp">
+      <Filter>src\toolbars</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelDefaultClickHandle.cpp">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelGlyphHandle.cpp">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelTextHandle.cpp">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelTrackControls.cpp">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelTrackShifter.cpp">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelTrackVRulerControls.cpp">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelTrackView.cpp">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackAffordanceControls.cpp">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackButtonHandle.cpp">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackControls.cpp">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackMenuItems.cpp">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackShifter.cpp">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackSliderHandles.cpp">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackVRulerControls.cpp">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackVZoomHandle.cpp">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackView.cpp">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\StretchHandle.cpp">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\ui\PlayableTrackButtonHandles.cpp">
+      <Filter>src\tracks\playabletrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\ui\PlayableTrackControls.cpp">
+      <Filter>src\tracks\playabletrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\CutlineHandle.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\GetWaveDisplay.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\SampleHandle.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\SpectrumCache.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\SpectrumVRulerControls.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\SpectrumVZoomHandle.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\SpectrumView.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveClipTrimHandle.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveClipUtilities.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackAffordanceControls.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackAffordanceHandle.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackControls.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackMenuItems.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackShifter.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackSliderHandles.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackVRulerControls.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackVZoomHandle.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackView.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackViewConstants.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveformVRulerControls.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveformVZoomHandle.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveformCache.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveformView.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\WaveTrackUtils.cpp">
+      <Filter>src\tracks\playabletrack\wavetrack</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\timetrack\ui\TimeTrackControls.cpp">
+      <Filter>src\tracks\timetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\timetrack\ui\TimeTrackMenuItems.cpp">
+      <Filter>src\tracks\timetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\timetrack\ui\TimeTrackVRulerControls.cpp">
+      <Filter>src\tracks\timetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\timetrack\ui\TimeTrackVZoomHandle.cpp">
+      <Filter>src\tracks\timetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\timetrack\ui\TimeTrackView.cpp">
+      <Filter>src\tracks\timetrack\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\AffordanceHandle.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\BackgroundCell.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\BrushHandle.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\ButtonHandle.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\CommonTrackControls.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\CommonTrackPanelCell.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\CommonTrackView.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\EditCursorOverlay.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\EnvelopeHandle.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\PlayIndicatorOverlay.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\ScrubUI.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\Scrubbing.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\SelectHandle.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\SliderHandle.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\TextEditHelper.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\TimeShiftHandle.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\TrackButtonHandles.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\TrackControls.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\TrackSelectHandle.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\TrackVRulerControls.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\TrackView.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\tracks\ui\ZoomHandle.cpp">
+      <Filter>src\tracks\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\ui\AccessibleLinksFormatter.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\AButton.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\ASlider.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\AttachableScrollBar.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\AudacityMessageBox.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\AudacityTextEntryDialog.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\BackedPanel.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\BasicMenu.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\ErrorDialog.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\ExpandingToolBar.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\FileDialog\FileDialog.cpp">
+      <Filter>src\widgets\FileDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\FileDialog\win\FileDialogPrivate.cpp">
+      <Filter>src\widgets\FileDialog\win</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\FileHistory.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\Grabber.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\Grid.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\HelpSystem.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\HtmlWindow.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\ImageRoll.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\KeyView.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\MeterPanel.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\MeterPanelBase.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\MissingPluginsErrorDialog.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\MultiDialog.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\NumericTextCtrl.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\Overlay.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\OverlayPanel.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\PopupMenuTable.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\ProgressDialog.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\Ruler.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\UnwritableLocationErrorDialog.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\Warning.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\WindowAccessible.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\auStaticText.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\numformatter.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\valnum.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\wxPanelWrapper.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\wxWidgetsBasicUI.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\src\widgets\wxWidgetsWindowPlacement.cpp">
+      <Filter>src\widgets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\include\audacity\Types.h">
+      <Filter>include\include\audacity</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ActiveProject.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ActiveProjects.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\AboutDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\AdornedRulerPanel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\AudacityApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\AudacityFileConfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\AudacityHeaders.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\AudioPasteDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\AutoRecoveryDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\BatchCommandDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\BatchCommands.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\BatchProcessDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Benchmark.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\CellularPanel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Clipboard.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\CommonCommandFlags.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\CrashReport.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\DBConnection.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\DefaultPlaybackPolicy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Diags.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\EffectPlugin.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\EnvelopeEditor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\FFmpeg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\FileFormats.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\FrameStatisticsDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\FreqWindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\HelpText.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\HelpUtilities.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\HistoryWindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\HitTestResult.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\IncompatiblePluginsDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Journal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\JournalEvents.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\JournalOutput.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\JournalRegistry.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\JournalWindowPaths.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\KeyboardCapture.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\LabelDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\LabelTrack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\LangChoice.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Legacy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\LogWindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Lyrics.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\LyricsWindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Menus.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\MIDIPlay.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\MixerBoard.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\NoteTrack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\PitchName.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\PluginRegistrationDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\PluginStartupRegistration.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Profiler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ProjectAudioManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ProjectFileIO.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ProjectFileManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ProjectManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ProjectSelectionManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ProjectSerializer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ProjectSettings.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ProjectWindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ProjectWindowBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\RefreshCode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ProjectWindows.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\RealtimeEffectPanel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Screenshot.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ScrubState.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\SelectUtilities.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\SelectFile.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Shuttle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ShuttleAutomation.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ShuttleGetDefinition.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ShuttleGui.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ShuttlePrefs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\Snap.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\SoundActivatedRecord.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\SpectralDataManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\SpectrumAnalyst.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\SpectrumTransformer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\SplashDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\SseMathFuncs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TagsEditor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ThemedWrappers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TimeDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TimeTrack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TimerRecordDialog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackArt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackArtist.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackInfo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackPanel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackPanelAx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackPanelCell.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackPanelConstants.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackPanelDrawable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackPanelDrawingContext.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackPanelListener.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackPanelMouseEvent.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackPanelResizeHandle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackPanelResizerCell.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TrackUtilities.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\UIHandle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\TransportUtilities.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\VoiceKey.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\WaveTrackLocation.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\WrappedType.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\AppCommandEvent.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\AudacityCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\BatchEvalCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\Command.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandBuilder.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandContext.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandDirectory.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandFlag.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandFunctors.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandDispatch.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandHandler.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandManager.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandManagerWindowClasses.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandMisc.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandSignature.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandTargets.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CommandType.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\CompareAudioCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\Demo.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\DragCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\GetInfoCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\GetTrackInfoCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\HelpCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\ImportExportCommands.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\Keyboard.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\LoadCommands.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\MessageCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\OpenSaveCommands.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\PreferenceCommands.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\ResponseQueue.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\ScreenshotCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\ScriptCommandRelay.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\SelectCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\SetClipCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\SetEnvelopeCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\SetLabelCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\SetProjectCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\SetTrackInfoCommand.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\commands\Validators.h">
+      <Filter>src\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Amplify.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\AnalysisTracks.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\AutoDuck.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\BasicEffectUIServices.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\BassTreble.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Biquad.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\ChangePitch.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\ChangeSpeed.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\ChangeTempo.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\ClickRemoval.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Compressor.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Contrast.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Distortion.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\DtmfGen.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EBUR128.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Echo.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Effect.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EffectBase.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EffectEditor.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EffectManager.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EffectUI.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EffectUIServices.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Equalization.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Equalization48x.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EqualizationBandSliders.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EqualizationCurves.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EqualizationCurvesDialog.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EqualizationCurvesList.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EqualizationFilter.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EqualizationPanel.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EqualizationParameters.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\EqualizationUI.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Fade.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\FindClipping.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Generator.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Invert.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\LoadEffects.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Loudness.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Noise.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\NoiseReduction.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\NoiseRemoval.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Normalize.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Paulstretch.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\PerTrackEffect.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Phaser.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\RealtimeEffectStateUI.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Repair.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Repeat.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Reverb.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Reverb_libSoX.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Reverse.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\SBSMSEffect.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\ScienFilter.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\ScoreAlignDialog.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Silence.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\SimpleMono.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\SoundTouchEffect.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\StatefulEffect.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\StatefulEffectBase.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\StatefulEffectUIServices.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\StatefulPerTrackEffect.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\StatelessPerTrackEffect.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\StereoToMono.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\TimeScale.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\ToneGen.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\TruncSilence.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\TwoPassSimpleMono.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\Wahwah.h">
+      <Filter>src\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST\VSTControl.h">
+      <Filter>src\effects\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST\VSTEffect.h">
+      <Filter>src\effects\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST\aeffectx.h">
+      <Filter>src\effects\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST\VSTControlMSW.h">
+      <Filter>src\effects\VST</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\AudacityVst3HostApplication.h">
+      <Filter>src\effects\VST3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\memorystream.h">
+      <Filter>src\effects\VST3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\VST3Editor.h">
+      <Filter>src\effects\VST3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\VST3Effect.h">
+      <Filter>src\effects\VST3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\VST3EffectsModule.h">
+      <Filter>src\effects\VST3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\VST3Instance.h">
+      <Filter>src\effects\VST3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\VST3Utils.h">
+      <Filter>src\effects\VST3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\VST3Wrapper.h">
+      <Filter>src\effects\VST3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\VST3OptionsDialog.h">
+      <Filter>src\effects\VST3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\VST3ParametersWindow.h">
+      <Filter>src\effects\VST3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\internal\ConnectionProxy.h">
+      <Filter>src\effects\VST3\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\VST3\internal\PlugFrame.h">
+      <Filter>src\effects\VST3\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\ladspa\LadspaEffect.h">
+      <Filter>src\effects\ladspa</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\ladspa\ladspa.h">
+      <Filter>src\effects\ladspa</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2Editor.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2Effect.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2EffectMeter.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2FeaturesList.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2Instance.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2InstanceFeaturesList.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2Ports.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2Preferences.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2Symbols.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2UIFeaturesList.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2Utils.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LV2Wrapper.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\LoadLV2.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\NativeWindow.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\lv2_external_ui.h">
+      <Filter>src\effects\lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\zix\common.h">
+      <Filter>src\effects\lv2\zix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\lv2\zix\ring.h">
+      <Filter>src\effects\lv2\zix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\nyquist\LoadNyquist.h">
+      <Filter>src\effects\nyquist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\nyquist\Nyquist.h">
+      <Filter>src\effects\nyquist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\vamp\LoadVamp.h">
+      <Filter>src\effects\vamp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\effects\vamp\VampEffect.h">
+      <Filter>src\effects\vamp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\export\Export.h">
+      <Filter>src\export</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\export\ExportMP3.h">
+      <Filter>src\export</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\export\ExportMultiple.h">
+      <Filter>src\export</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\export\ExportFFmpegDialogs.h">
+      <Filter>src\export</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\import\FormatClassifier.h">
+      <Filter>src\import</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\import\Import.h">
+      <Filter>src\import</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\import\ImportForwards.h">
+      <Filter>src\import</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\import\MultiFormatReader.h">
+      <Filter>src\import</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\import\RawAudioGuess.h">
+      <Filter>src\import</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\import\SpecPowerMeter.h">
+      <Filter>src\import</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\import\ImportPlugin.h">
+      <Filter>src\import</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\import\ImportRaw.h">
+      <Filter>src\import</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\import\ImportMIDI.h">
+      <Filter>src\import</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\BatchPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\DevicePrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\DirectoriesPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\EffectsPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\ExtImportPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\GUIPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\GUISettings.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\ImportExportPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\KeyConfigPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\LibraryPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\MidiIOPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\ModulePrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\MousePrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\PlaybackPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\PrefsDialog.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\PrefsPanel.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\QualityPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\RecordingPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\SpectrogramSettings.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\SpectrumPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\ThemePrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\TracksBehaviorsPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\TracksPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\WarningsPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\WaveformPrefs.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\prefs\WaveformSettings.h">
+      <Filter>src\prefs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\AudioSetupToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\CutCopyPasteToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\ControlToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\DeviceToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\EditToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\MeterToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\ScrubbingToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\SelectionBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\SelectionBarListener.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\SpectralSelectionBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\SpectralSelectionBarListener.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\TimeToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\ToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\ToolBarButtons.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\ToolDock.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\ToolManager.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\ToolsToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\toolbars\TranscriptionToolBar.h">
+      <Filter>src\toolbars</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelDefaultClickHandle.h">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelGlyphHandle.h">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelTextHandle.h">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelTrackControls.h">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelTrackVRulerControls.h">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\labeltrack\ui\LabelTrackView.h">
+      <Filter>src\tracks\labeltrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackAffordanceControls.h">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackButtonHandle.h">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackControls.h">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackSliderHandles.h">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackVRulerControls.h">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackVZoomHandle.h">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\NoteTrackView.h">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\notetrack\ui\StretchHandle.h">
+      <Filter>src\tracks\playabletrack\notetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\ui\PlayableTrackButtonHandles.h">
+      <Filter>src\tracks\playabletrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\ui\PlayableTrackControls.h">
+      <Filter>src\tracks\playabletrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\CutlineHandle.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\GetWaveDisplay.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\SampleHandle.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\SpectrumCache.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\SpectrumVRulerControls.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\SpectrumVZoomHandle.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\SpectrumView.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveClipTrimHandle.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveClipUtilities.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackAffordanceControls.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackAffordanceHandle.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackControls.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackSliderHandles.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackVRulerControls.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackVZoomHandle.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackView.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveTrackViewConstants.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveformVRulerControls.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveformVZoomHandle.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveformCache.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\ui\WaveformView.h">
+      <Filter>src\tracks\playabletrack\wavetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\playabletrack\wavetrack\WaveTrackUtils.h">
+      <Filter>src\tracks\playabletrack\wavetrack</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\timetrack\ui\TimeTrackControls.h">
+      <Filter>src\tracks\timetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\timetrack\ui\TimeTrackVRulerControls.h">
+      <Filter>src\tracks\timetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\timetrack\ui\TimeTrackVZoomHandle.h">
+      <Filter>src\tracks\timetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\timetrack\ui\TimeTrackView.h">
+      <Filter>src\tracks\timetrack\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\AffordanceHandle.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\BackgroundCell.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\BrushHandle.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\ButtonHandle.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\CommonTrackControls.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\CommonTrackPanelCell.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\CommonTrackView.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\EditCursorOverlay.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\EnvelopeHandle.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\PlayIndicatorOverlay.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\ScrubUI.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\Scrubbing.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\SelectHandle.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\SliderHandle.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\TextEditHelper.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\TimeShiftHandle.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\TrackButtonHandles.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\TrackControls.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\TrackSelectHandle.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\TrackVRulerControls.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\TrackView.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\tracks\ui\ZoomHandle.h">
+      <Filter>src\tracks\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\ui\AccessibleLinksFormatter.h">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\AButton.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\ASlider.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\AttachableScrollBar.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\AudacityMessageBox.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\AudacityTextEntryDialog.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\BackedPanel.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\BasicMenu.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\ErrorDialog.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\ExpandingToolBar.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\FileDialog\FileDialog.h">
+      <Filter>src\widgets\FileDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\FileDialog\win\FileDialogPrivate.h">
+      <Filter>src\widgets\FileDialog\win</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\FileHistory.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\Grabber.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\Grid.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\HelpSystem.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\HtmlWindow.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\ImageRoll.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\KeyView.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\MeterPanel.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\MeterPanelBase.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\MissingPluginsErrorDialog.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\MultiDialog.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\NumericTextCtrl.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\Overlay.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\OverlayPanel.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\PopupMenuTable.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\ProgressDialog.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\ReadOnlyText.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\Ruler.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\UnwritableLocationErrorDialog.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\VetoDialogHook.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\Warning.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\WindowAccessible.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\auStaticText.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\numformatter.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\valnum.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\wxPanelWrapper.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\wxTextCtrlWrapper.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\wxWidgetsBasicUI.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\src\widgets\wxWidgetsWindowPlacement.h">
+      <Filter>src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\visual_studio\src\CMakeFiles\Audacity.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\visual_studio\src\CMakeFiles\Audacity.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\visual_studio\src\CMakeFiles\Audacity.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\visual_studio\src\CMakeFiles\Audacity.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-sentry-reporting\SentryHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Workspace\audacity\src\Experimental.cmake">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Workspace\audacity\win\audacity.rc">
+      <Filter>win</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="C:\Workspace\audacity\resources\EffectsMenuDefaults.xml">
+      <Filter>resources</Filter>
+    </XML>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake">
+      <UniqueIdentifier>{399E98D1-2B68-380B-B36B-ACCDD95AB6A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake\CMakeFiles">
+      <UniqueIdentifier>{83E1B177-C694-383C-8786-FCF65D8544A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake\CMakeFiles\Audacity.dir">
+      <UniqueIdentifier>{9178F816-BA39-34AD-8CBB-3D6F322C8B5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{248BBF7D-3561-313C-8DAC-89ADDEC237F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{E31B8DB6-E181-3952-BF00-5B6C54B24AEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{262A9127-B341-33AE-9750-203D91838D25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\include">
+      <UniqueIdentifier>{BBA8125C-2E1D-375A-8A5F-B879212F76E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\include\audacity">
+      <UniqueIdentifier>{B9DEBF65-3AB6-3785-A76D-F33F54F51501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{4CEF078F-EC22-3BA7-AC33-B8BCCB10004F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B8C2D02-6556-321F-8E2F-C283746BEB9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\commands">
+      <UniqueIdentifier>{09F99BEB-20F3-3646-ACFA-BE1E149E8BB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\effects">
+      <UniqueIdentifier>{F8E60221-B7BB-3863-9128-7754B4291316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\effects\VST">
+      <UniqueIdentifier>{9F01715F-0372-333A-A0EE-C2E13A69E9DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\effects\VST3">
+      <UniqueIdentifier>{D00C8671-500E-3128-9586-DC512963CE15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\effects\VST3\internal">
+      <UniqueIdentifier>{703D1DE8-92FD-36F9-B230-ACCEB5FEDB22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\effects\ladspa">
+      <UniqueIdentifier>{AFBCE13C-2B8B-3630-9FF1-5BB3A8A139DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\effects\lv2">
+      <UniqueIdentifier>{46B110AE-C981-304C-9E45-949BCBEB9422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\effects\lv2\zix">
+      <UniqueIdentifier>{6BAA38C9-8852-3C24-A2A3-CBABF1F88A6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\effects\nyquist">
+      <UniqueIdentifier>{918D67D8-53A1-34A8-9659-6489262F2A65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\effects\vamp">
+      <UniqueIdentifier>{300DACCE-3ED3-3F54-A7D0-921F354C5C02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\export">
+      <UniqueIdentifier>{3357A2D3-E42B-3E24-A272-E7DE8FF4691C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\import">
+      <UniqueIdentifier>{6284FF03-99A7-3E87-B6B1-AEA3012696E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menus">
+      <UniqueIdentifier>{CBF5BEBE-8F8A-3F8E-B1E0-AFFF1DC0C71D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\prefs">
+      <UniqueIdentifier>{0994FE88-27B3-3F51-8237-AC0A0C32E985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\toolbars">
+      <UniqueIdentifier>{3BCB2A66-4376-34FF-A841-2F0BDCE30EE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks">
+      <UniqueIdentifier>{009B6EB1-A8E1-3106-B77C-AE9289F99B93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\labeltrack">
+      <UniqueIdentifier>{72922D24-4FBA-3200-B21C-8116CB8D1AA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\labeltrack\ui">
+      <UniqueIdentifier>{25C1D435-AE91-3AF2-A1D8-8A86EA842B4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\playabletrack">
+      <UniqueIdentifier>{89DE0FB7-E1F5-3D6C-B743-8A3D42DC1888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\playabletrack\notetrack">
+      <UniqueIdentifier>{BAC2F0DB-6F32-3F47-B331-537FE2AA3EEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\playabletrack\notetrack\ui">
+      <UniqueIdentifier>{BD3DA3A5-D290-3641-A2A4-1FC3780622B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\playabletrack\ui">
+      <UniqueIdentifier>{91A05017-B10D-323D-A037-06BF054D58B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\playabletrack\wavetrack">
+      <UniqueIdentifier>{62BA30A4-145C-34E8-A1E2-114A136B24B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\playabletrack\wavetrack\ui">
+      <UniqueIdentifier>{AEB7A1DD-6651-3864-9F67-6B45DE2A1E9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\timetrack">
+      <UniqueIdentifier>{D67CD621-459F-3789-ACEF-5FF62F19BA77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\timetrack\ui">
+      <UniqueIdentifier>{2DEB37B4-A6D0-30B0-814F-8995529E1FFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tracks\ui">
+      <UniqueIdentifier>{54B4BBD6-B154-38F7-951A-8220F411016D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{9DDF2518-14C6-3EF1-9BE8-83DFB9504B0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets">
+      <UniqueIdentifier>{0DC3AF38-0373-385E-81BD-F1CB67289DAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\FileDialog">
+      <UniqueIdentifier>{972D214E-B146-3F6C-88DF-92D5E7B0561D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\widgets\FileDialog\win">
+      <UniqueIdentifier>{A9ACC503-D317-30BE-9E69-2AC3685647B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win">
+      <UniqueIdentifier>{9FAECF46-E46C-36B0-B955-559E38D8DBAA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

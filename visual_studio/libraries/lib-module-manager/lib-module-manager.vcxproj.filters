@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-module-manager\AsyncPluginValidator.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-module-manager\ConfigInterface.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-module-manager\PluginIPCUtils.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-module-manager\ModuleManager.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-module-manager\ModuleSettings.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-module-manager\PluginDescriptor.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-module-manager\PluginHost.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-module-manager\PluginInterface.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-module-manager\PluginManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-module-manager\AsyncPluginValidator.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-module-manager\ConfigInterface.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-module-manager\PluginIPCUtils.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-module-manager\ModuleManager.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-module-manager\ModuleSettings.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-module-manager\PluginDescriptor.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-module-manager\PluginHost.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-module-manager\PluginInterface.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-module-manager\PluginManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\libraries\lib-module-manager\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\aa2aa5996a4d89714c28c0ef745428ca\index.html.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\d730c0a8c0692603f651998720cb691a\manual.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\help\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Workspace\audacity\visual_studio\help\CMakeFiles\manual" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{056F32F2-F9F5-30FA-8D64-BC3D98460815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

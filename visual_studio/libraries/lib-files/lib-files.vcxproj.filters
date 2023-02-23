@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-files\AudacityLogger.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-files\FileException.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-files\FileIO.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-files\FileNames.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-files\PathList.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-files\PlatformCompatibility.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-files\TempDirectory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-files\AudacityLogger.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-files\FileException.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-files\FileIO.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-files\FileNames.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-files\PathList.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-files\PlatformCompatibility.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-files\TempDirectory.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-files\wxFileNameWrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\libraries\lib-files\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

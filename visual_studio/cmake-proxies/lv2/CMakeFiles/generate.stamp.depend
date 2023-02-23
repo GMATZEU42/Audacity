@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Workspace/audacity/cmake-proxies/lv2/CMakeLists.txt
+C:/Workspace/audacity/cmake-proxies/lv2/lilv_config.h.in
+C:/Workspace/audacity/cmake-proxies/lv2/serd_config.h.in
+C:/Workspace/audacity/cmake-proxies/lv2/sord_config.h.in
+C:/Workspace/audacity/cmake-proxies/lv2/sratom_config.h.in
+C:/Workspace/audacity/cmake-proxies/lv2/suil_config.h.in

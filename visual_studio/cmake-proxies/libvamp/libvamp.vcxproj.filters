@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libvamp\src\vamp-hostsdk\PluginBufferingAdapter.cpp">
+      <Filter>src\vamp-hostsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libvamp\src\vamp-hostsdk\PluginChannelAdapter.cpp">
+      <Filter>src\vamp-hostsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libvamp\src\vamp-hostsdk\PluginHostAdapter.cpp">
+      <Filter>src\vamp-hostsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libvamp\src\vamp-hostsdk\PluginInputDomainAdapter.cpp">
+      <Filter>src\vamp-hostsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libvamp\src\vamp-hostsdk\PluginLoader.cpp">
+      <Filter>src\vamp-hostsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libvamp\src\vamp-hostsdk\PluginSummarisingAdapter.cpp">
+      <Filter>src\vamp-hostsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libvamp\src\vamp-hostsdk\PluginWrapper.cpp">
+      <Filter>src\vamp-hostsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\libvamp\src\vamp-hostsdk\RealTime.cpp">
+      <Filter>src\vamp-hostsdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\cmake-proxies\libvamp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2B8C2D02-6556-321F-8E2F-C283746BEB9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\vamp-hostsdk">
+      <UniqueIdentifier>{40F0EA1A-911A-3648-AB37-980A4E595314}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

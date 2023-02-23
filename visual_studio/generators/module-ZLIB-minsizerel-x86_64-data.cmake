@@ -1,0 +1,39 @@
+########### AGGREGATED COMPONENTS AND DEPENDENCIES FOR THE MULTI CONFIG #####################
+#############################################################################################
+
+set(zlib_COMPONENT_NAMES "")
+set(zlib_FIND_DEPENDENCY_NAMES "")
+
+########### VARIABLES #######################################################################
+#############################################################################################
+set(zlib_PACKAGE_FOLDER_MINSIZEREL "C:/Users/giaco/.conan/data/zlib/1.2.11/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0")
+set(zlib_BUILD_MODULES_PATHS_MINSIZEREL )
+
+
+set(zlib_INCLUDE_DIRS_MINSIZEREL "${zlib_PACKAGE_FOLDER_MINSIZEREL}/include")
+set(zlib_RES_DIRS_MINSIZEREL )
+set(zlib_DEFINITIONS_MINSIZEREL )
+set(zlib_SHARED_LINK_FLAGS_MINSIZEREL )
+set(zlib_EXE_LINK_FLAGS_MINSIZEREL )
+set(zlib_OBJECTS_MINSIZEREL )
+set(zlib_COMPILE_DEFINITIONS_MINSIZEREL )
+set(zlib_COMPILE_OPTIONS_C_MINSIZEREL )
+set(zlib_COMPILE_OPTIONS_CXX_MINSIZEREL )
+set(zlib_LIB_DIRS_MINSIZEREL "${zlib_PACKAGE_FOLDER_MINSIZEREL}/lib")
+set(zlib_LIBS_MINSIZEREL zdll)
+set(zlib_SYSTEM_LIBS_MINSIZEREL )
+set(zlib_FRAMEWORK_DIRS_MINSIZEREL )
+set(zlib_FRAMEWORKS_MINSIZEREL )
+set(zlib_BUILD_DIRS_MINSIZEREL "${zlib_PACKAGE_FOLDER_MINSIZEREL}/")
+
+# COMPOUND VARIABLES
+set(zlib_COMPILE_OPTIONS_MINSIZEREL
+    "$<$<COMPILE_LANGUAGE:CXX>:${zlib_COMPILE_OPTIONS_CXX_MINSIZEREL}>"
+    "$<$<COMPILE_LANGUAGE:C>:${zlib_COMPILE_OPTIONS_C_MINSIZEREL}>")
+set(zlib_LINKER_FLAGS_MINSIZEREL
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:${zlib_SHARED_LINK_FLAGS_MINSIZEREL}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,MODULE_LIBRARY>:${zlib_SHARED_LINK_FLAGS_MINSIZEREL}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:${zlib_EXE_LINK_FLAGS_MINSIZEREL}>")
+
+
+set(zlib_COMPONENTS_MINSIZEREL )

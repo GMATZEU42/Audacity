@@ -1,0 +1,205 @@
+[settings]
+    arch=x86_64
+    build_type=RelWithDebInfo
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=17
+    os=Windows
+
+[requires]
+    catch2/2.Y.Z
+    expat/2.Y.Z
+    flac/1.Y.Z
+    libid3tag/0.15.2b
+    libjpeg-turbo/2.Y.Z
+    libmp3lame/3.Y.Z
+    libpng/1.Y.Z
+    libsndfile/1.Y.Z
+    mpg123/1.Y.Z
+    ogg/1.Y.Z
+    opus/1.Y.Z
+    portaudio/19.Y.Z
+    portmidi/r234
+    vorbis/1.Y.Z
+    vst3sdk/3.Y.Z
+    wavpack/5.Y.Z
+    wxwidgets/3.Y.Z
+    zlib/1.Y.Z
+
+[options]
+    lib_dir=None
+    use_asio=False
+    use_breakpad=False
+    use_catch2=True
+    use_crashpad=False
+    use_expat=True
+    use_flac=True
+    use_jack=False
+    use_libcurl=False
+    use_libid3tag=True
+    use_libjpeg-turbo=True
+    use_libmad=False
+    use_libmp3lame=True
+    use_libpng=True
+    use_libsndfile=True
+    use_libuuid=False
+    use_mpg123=True
+    use_ogg=True
+    use_opus=True
+    use_portaudio=True
+    use_portmidi=True
+    use_rapidjson=False
+    use_threadpool=False
+    use_vorbis=True
+    use_vst3sdk=True
+    use_wavpack=True
+    use_wxwidgets=True
+    use_zlib=True
+
+[full_settings]
+    arch=x86_64
+    build_type=RelWithDebInfo
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=17
+    os=Windows
+
+[full_requires]
+    catch2/2.13.8:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    expat/2.2.9@audacity/stable:ad5261bf6074807e7189c351b0f79b113bf2f6c0
+    flac/1.3.3:3b26581a680ab99eb0ef725aa935a0289708df91
+    libid3tag/0.15.2b@audacity/stable:cff0a049e1746c21cbf4a615b7f8af9699b5e4e2
+    libjpeg-turbo/2.0.5:a4d7b7afca088fef1bf9c91917f432786418abe9
+    libmp3lame/3.100:ad5261bf6074807e7189c351b0f79b113bf2f6c0
+    libpng/1.6.37:c6d8367cbf7c047a38c0929c00d8d160cb8378db
+    libsndfile/1.0.31:899d2c53f1b9e4a7deb461e3cf1716f2d4fd697d
+    mpg123/1.29.3:9e1553e6621f02c61665c153436b2dfb785b6498
+    ogg/1.3.4:ad5261bf6074807e7189c351b0f79b113bf2f6c0
+    opus/1.3.1:ad5261bf6074807e7189c351b0f79b113bf2f6c0
+    portaudio/19.7.0:f8004b13ba3d25eb6354835cd3e9101dc2e51cac
+    portmidi/r234:ad5261bf6074807e7189c351b0f79b113bf2f6c0
+    vorbis/1.3.7:3b26581a680ab99eb0ef725aa935a0289708df91
+    vst3sdk/3.7.3:5a61a86bb3e07ce4262c80e1510f9c05e9b6d48b
+    wavpack/5.4.0:f8ede90eeb7dcf521c8653ba9e84fa208c917189
+    wxwidgets/3.1.3.4-audacity:fa2df25618b85785b64ca20d59cd65194f8e6bc7
+    zlib/1.2.11:ad5261bf6074807e7189c351b0f79b113bf2f6c0
+
+[full_options]
+    lib_dir=None
+    use_asio=False
+    use_breakpad=False
+    use_catch2=True
+    use_crashpad=False
+    use_expat=True
+    use_flac=True
+    use_jack=False
+    use_libcurl=False
+    use_libid3tag=True
+    use_libjpeg-turbo=True
+    use_libmad=False
+    use_libmp3lame=True
+    use_libpng=True
+    use_libsndfile=True
+    use_libuuid=False
+    use_mpg123=True
+    use_ogg=True
+    use_opus=True
+    use_portaudio=True
+    use_portmidi=True
+    use_rapidjson=False
+    use_threadpool=False
+    use_vorbis=True
+    use_vst3sdk=True
+    use_wavpack=True
+    use_wxwidgets=True
+    use_zlib=True
+    catch2:default_reporter=None
+    catch2:with_main=False
+    catch2:with_prefix=False
+    expat:shared=True
+    flac:shared=True
+    libid3tag:shared=False
+    libid3tag:zlib=conan
+    libjpeg-turbo:SIMD=False
+    libjpeg-turbo:enable12bit=False
+    libjpeg-turbo:java=False
+    libjpeg-turbo:libjpeg7_compatibility=True
+    libjpeg-turbo:libjpeg8_compatibility=True
+    libjpeg-turbo:shared=True
+    libjpeg-turbo:turbojpeg=True
+    libmp3lame:shared=True
+    libpng:api_prefix=
+    libpng:shared=True
+    libpng:sse=True
+    libsndfile:experimental=False
+    libsndfile:programs=True
+    libsndfile:shared=True
+    libsndfile:with_external_libs=True
+    mpg123:flexible_resampling=True
+    mpg123:icy=True
+    mpg123:id3v2=True
+    mpg123:ieeefloat=True
+    mpg123:layer1=True
+    mpg123:layer2=True
+    mpg123:layer3=True
+    mpg123:module=dummy
+    mpg123:moreinfo=True
+    mpg123:network=False
+    mpg123:seektable=1000
+    mpg123:shared=True
+    ogg:shared=True
+    opus:fixed_point=False
+    opus:shared=True
+    portaudio:build_framework=False
+    portaudio:shared=True
+    portaudio:with_alsa=True
+    portaudio:with_alsa_dynamic=False
+    portaudio:with_asio=False
+    portaudio:with_directsound=True
+    portaudio:with_jack=False
+    portaudio:with_mme=True
+    portaudio:with_oss=True
+    portaudio:with_static_runtime=False
+    portaudio:with_wasapi=True
+    portaudio:with_wdmks=False
+    portmidi:shared=True
+    vorbis:shared=True
+    wavpack:enable_dsd=True
+    wavpack:legacy_format=False
+    wavpack:shared=True
+    wxwidgets:aui=True
+    wxwidgets:compatibility=3.0
+    wxwidgets:custom_disables=
+    wxwidgets:custom_enables=
+    wxwidgets:debugreport=True
+    wxwidgets:expat=expat
+    wxwidgets:fs_inet=False
+    wxwidgets:help=False
+    wxwidgets:html=True
+    wxwidgets:html_help=False
+    wxwidgets:jpeg=libjpeg-turbo
+    wxwidgets:mediactrl=False
+    wxwidgets:opengl=False
+    wxwidgets:png=libpng
+    wxwidgets:propgrid=False
+    wxwidgets:protocol=False
+    wxwidgets:ribbon=False
+    wxwidgets:richtext=False
+    wxwidgets:secretstore=False
+    wxwidgets:shared=True
+    wxwidgets:sockets=True
+    wxwidgets:stc=False
+    wxwidgets:tiff=off
+    wxwidgets:unicode=True
+    wxwidgets:url=True
+    wxwidgets:webview=False
+    wxwidgets:xml=True
+    wxwidgets:xrc=True
+    wxwidgets:zlib=zlib
+    zlib:shared=True
+
+[recipe_hash]
+
+
+[env]
+

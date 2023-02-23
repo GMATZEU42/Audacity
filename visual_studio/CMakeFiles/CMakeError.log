@@ -1,0 +1,292 @@
+Checking whether the ASM_NASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Checking whether the ASM_NASM compiler is Clang using "--version" did not match "(clang version)":
+Checking whether the ASM_NASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+Checking whether the ASM_NASM compiler is ARMClang using "--version" did not match "armclang":
+Checking whether the ASM_NASM compiler is HP using "-V" did not match "HP C":
+Checking whether the ASM_NASM compiler is Intel using "--version" did not match "(ICC)":
+Checking whether the ASM_NASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+Checking whether the ASM_NASM compiler is SunPro using "-V" did not match "Sun C":
+Checking whether the ASM_NASM compiler is XL using "-qversion" did not match "XL C":
+Checking whether the ASM_NASM compiler is MSVC using "-?" did not match "Microsoft":
+Checking whether the ASM_NASM compiler is TI using "-h" did not match "Texas Instruments":
+Checking whether the ASM_NASM compiler is IAR using "" did not match "IAR Assembler":
+Checking whether the ASM_NASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+Checking whether the ASM_NASM compiler is NASM using "-v" did not match "(NASM version)":
+Checking whether the ASM_NASM compiler is YASM using "--version" did not match "(yasm)":
+Checking whether the ASM_NASM compiler is ADSP using "-version" did not match "Analog Devices":
+Checking whether the ASM_NASM compiler is QCC using "-V" did not match "gcc_nto":
+Determining if the function pow exists in the m failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-27xg43
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cd75b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pow /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd75b.dir\Debug\\" /Fd"cmTC_cd75b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-27xg43\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'm.lib' [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-27xg43\cmTC_cd75b.vcxproj]
+
+
+
+Determining if the function __atomic_fetch_add_4 exists in the atomic failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-vjfxzo
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8aa43.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__atomic_fetch_add_4 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8aa43.dir\Debug\\" /Fd"cmTC_8aa43.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-vjfxzo\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'atomic.lib' [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-vjfxzo\cmTC_8aa43.vcxproj]
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-z604oj
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_352a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_352a9.dir\Debug\\" /Fd"cmTC_352a9.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-z604oj\CheckIncludeFile.c"
+C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-z604oj\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-z604oj\cmTC_352a9.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-m8v23o
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0bdcd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0bdcd.dir\Debug\\" /Fd"cmTC_0bdcd.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-m8v23o\CheckIncludeFile.c"
+C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-m8v23o\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-m8v23o\cmTC_0bdcd.vcxproj]
+
+
+
+Determining if the flock exist failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-38nyes
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_88ebe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88ebe.dir\Debug\\" /Fd"cmTC_88ebe.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-38nyes\CheckSymbolExists.c"
+C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-38nyes\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'sys/file.h': No such file or directory [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-38nyes\cmTC_88ebe.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/file.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef flock
+  return ((int*)(&flock))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gmtime_r exist failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-9z0mdz
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_42b60.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42b60.dir\Debug\\" /Fd"cmTC_42b60.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-9z0mdz\CheckSymbolExists.c"
+C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-9z0mdz\CheckSymbolExists.c(8,27): error C2065: 'gmtime_r': undeclared identifier [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-9z0mdz\cmTC_42b60.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gmtime_r
+  return ((int*)(&gmtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lstat exist failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-fkev4p
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_20939.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20939.dir\Debug\\" /Fd"cmTC_20939.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-fkev4p\CheckSymbolExists.c"
+C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-fkev4p\CheckSymbolExists.c(8,24): error C2065: 'lstat': undeclared identifier [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-fkev4p\cmTC_20939.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lstat
+  return ((int*)(&lstat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mlock exist failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-1uzvwy
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b9149.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9149.dir\Debug\\" /Fd"cmTC_b9149.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-1uzvwy\CheckSymbolExists.c"
+C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-1uzvwy\CheckSymbolExists.c(2,10): fatal  error C1083: Cannot open include file: 'sys/mman.h': No such file or directory [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-1uzvwy\cmTC_b9149.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mlock
+  return ((int*)(&mlock))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_fadvise exist failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-ak23nr
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2feb9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2feb9.dir\Debug\\" /Fd"cmTC_2feb9.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-ak23nr\CheckSymbolExists.c"
+C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-ak23nr\CheckSymbolExists.c(8,32): error C2065: 'posix_fadvise': undeclared identifier [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-ak23nr\cmTC_2feb9.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fadvise
+  return ((int*)(&posix_fadvise))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_memalign exist failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-s1gg7z
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e3a7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3a7f.dir\Debug\\" /Fd"cmTC_e3a7f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-s1gg7z\CheckSymbolExists.c"
+C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-s1gg7z\CheckSymbolExists.c(8,33): error C2065: 'posix_memalign': undeclared identifier [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-s1gg7z\cmTC_e3a7f.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-hdsx8s
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b5a8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5a8e.dir\Debug\\" /Fd"cmTC_b5a8e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-hdsx8s\src.c"
+C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-hdsx8s\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-hdsx8s\cmTC_b5a8e.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-irfft4
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_be459.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be459.dir\Debug\\" /Fd"cmTC_be459.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-irfft4\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-irfft4\cmTC_be459.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-jmqzu4
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0934d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0934d.dir\Debug\\" /Fd"cmTC_0934d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-jmqzu4\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-jmqzu4\cmTC_0934d.vcxproj]
+
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: C:/Workspace/audacity/visual_studio/CMakeFiles/CMakeScratch/TryCompile-xadm2u
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b0268.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.1+9a89d02ff for .NET Framework
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31937 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /D cmTC_b0268_EXPORTS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0268.dir\Debug\\" /Fd"cmTC_b0268.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-xadm2u\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol clock_gettime referenced in function main [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-xadm2u\cmTC_b0268.vcxproj]
+C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-xadm2u\Debug\cmTC_b0268.exe : fatal error LNK1120: 1 unresolved externals [C:\Workspace\audacity\visual_studio\CMakeFiles\CMakeScratch\TryCompile-xadm2u\cmTC_b0268.vcxproj]
+
+
+

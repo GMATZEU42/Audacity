@@ -1,0 +1,185 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "lib_dir=None\nuse_asio=False\nuse_breakpad=False\nuse_catch2=True\nuse_crashpad=False\nuse_expat=True\nuse_flac=True\nuse_jack=False\nuse_libcurl=False\nuse_libid3tag=True\nuse_libjpeg-turbo=True\nuse_libmad=False\nuse_libmp3lame=True\nuse_libpng=True\nuse_libsndfile=True\nuse_libuuid=False\nuse_mpg123=True\nuse_ogg=True\nuse_opus=True\nuse_portaudio=True\nuse_portmidi=True\nuse_rapidjson=False\nuse_threadpool=False\nuse_vorbis=True\nuse_vst3sdk=True\nuse_wavpack=True\nuse_wxwidgets=True\nuse_zlib=True\ncatch2:default_reporter=None\ncatch2:with_main=False\ncatch2:with_prefix=False\nexpat:shared=True\nflac:shared=True\nlibid3tag:shared=False\nlibid3tag:zlib=conan\nlibjpeg-turbo:SIMD=False\nlibjpeg-turbo:enable12bit=False\nlibjpeg-turbo:java=False\nlibjpeg-turbo:libjpeg7_compatibility=True\nlibjpeg-turbo:libjpeg8_compatibility=True\nlibjpeg-turbo:shared=True\nlibjpeg-turbo:turbojpeg=True\nlibmp3lame:shared=True\nlibpng:api_prefix=\nlibpng:shared=True\nlibpng:sse=True\nlibsndfile:experimental=False\nlibsndfile:programs=True\nlibsndfile:shared=True\nlibsndfile:with_external_libs=True\nmpg123:flexible_resampling=True\nmpg123:icy=True\nmpg123:id3v2=True\nmpg123:ieeefloat=True\nmpg123:layer1=True\nmpg123:layer2=True\nmpg123:layer3=True\nmpg123:module=dummy\nmpg123:moreinfo=True\nmpg123:network=False\nmpg123:seektable=1000\nmpg123:shared=True\nogg:shared=True\nopus:fixed_point=False\nopus:shared=True\nportaudio:build_framework=False\nportaudio:shared=True\nportaudio:with_alsa=True\nportaudio:with_alsa_dynamic=False\nportaudio:with_asio=False\nportaudio:with_directsound=True\nportaudio:with_jack=False\nportaudio:with_mme=True\nportaudio:with_oss=True\nportaudio:with_static_runtime=False\nportaudio:with_wasapi=True\nportaudio:with_wdmks=False\nportmidi:shared=True\nvorbis:shared=True\nwavpack:enable_dsd=True\nwavpack:legacy_format=False\nwavpack:shared=True\nwxwidgets:aui=True\nwxwidgets:compatibility=3.0\nwxwidgets:custom_disables=\nwxwidgets:custom_enables=\nwxwidgets:debugreport=True\nwxwidgets:expat=expat\nwxwidgets:fs_inet=False\nwxwidgets:help=False\nwxwidgets:html=True\nwxwidgets:html_help=False\nwxwidgets:jpeg=libjpeg-turbo\nwxwidgets:mediactrl=False\nwxwidgets:opengl=False\nwxwidgets:png=libpng\nwxwidgets:propgrid=False\nwxwidgets:protocol=False\nwxwidgets:ribbon=False\nwxwidgets:richtext=False\nwxwidgets:secretstore=False\nwxwidgets:shared=True\nwxwidgets:sockets=True\nwxwidgets:stc=False\nwxwidgets:tiff=off\nwxwidgets:unicode=True\nwxwidgets:url=True\nwxwidgets:webview=False\nwxwidgets:xml=True\nwxwidgets:xrc=True\nwxwidgets:zlib=zlib\nzlib:shared=True",
+    "requires": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18"
+    ],
+    "path": "..\\..\\conan\\conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "zlib/1.2.11#ffa77daf83a57094149707928bdce823",
+    "options": "shared=True",
+    "package_id": "bf9ec17af5844bd8d3cc139070000dc26fc5f076",
+    "prev": "ab567c7b05dac9bf5d0c28568465fe20",
+    "context": "host"
+   },
+   "2": {
+    "ref": "libpng/1.6.37#4dd111105b4022b8ebcdec1de2f9f3c9",
+    "options": "api_prefix=\nshared=True\nsse=True\nzlib:shared=True",
+    "package_id": "2026793585d04329599fcef815fc80b19828f099",
+    "prev": "6793f8932deaefcbc40850f6edb786bb",
+    "requires": [
+     "1"
+    ],
+    "context": "host"
+   },
+   "3": {
+    "ref": "expat/2.2.9@audacity/stable#0",
+    "options": "shared=True",
+    "package_id": "bf9ec17af5844bd8d3cc139070000dc26fc5f076",
+    "prev": "d7db164368b7d0d32e3d41cfded7c421",
+    "context": "host"
+   },
+   "4": {
+    "ref": "libjpeg-turbo/2.0.5#9c9886a22d91d34320a1664b1b34f11d",
+    "options": "SIMD=False\nenable12bit=False\njava=False\nlibjpeg7_compatibility=True\nlibjpeg8_compatibility=True\nshared=True\nturbojpeg=True",
+    "package_id": "2bd7d31bb0f41ea05f1be29f942766f578e1ebc0",
+    "prev": "e007129f434b7c3ff20fac19d445ceda",
+    "context": "host"
+   },
+   "5": {
+    "ref": "wxwidgets/3.1.3.4-audacity#b78ada97c50b867aa884d61cba2c0c05",
+    "options": "aui=True\ncompatibility=3.0\ncustom_disables=\ncustom_enables=\ndebugreport=True\nexpat=expat\nfs_inet=False\nhelp=False\nhtml=True\nhtml_help=False\njpeg=libjpeg-turbo\nmediactrl=False\nopengl=False\npng=libpng\npropgrid=False\nprotocol=False\nribbon=False\nrichtext=False\nsecretstore=False\nshared=True\nsockets=True\nstc=False\ntiff=off\nunicode=True\nurl=True\nwebview=False\nxml=True\nxrc=True\nzlib=zlib\nexpat:shared=True\nlibjpeg-turbo:SIMD=False\nlibjpeg-turbo:enable12bit=False\nlibjpeg-turbo:java=False\nlibjpeg-turbo:libjpeg7_compatibility=True\nlibjpeg-turbo:libjpeg8_compatibility=True\nlibjpeg-turbo:shared=True\nlibjpeg-turbo:turbojpeg=True\nlibpng:api_prefix=\nlibpng:shared=True\nlibpng:sse=True\nzlib:shared=True",
+    "package_id": "7b6179636cd96e2eaf6628a5948c95243b67b127",
+    "prev": "2efba777580c3b339c7e74dfd41f8f2e",
+    "requires": [
+     "2",
+     "4",
+     "1",
+     "3"
+    ],
+    "context": "host"
+   },
+   "6": {
+    "ref": "libmp3lame/3.100#44b12d19316eb2b223d98d3e75dae438",
+    "options": "shared=True",
+    "package_id": "bf9ec17af5844bd8d3cc139070000dc26fc5f076",
+    "prev": "8044e249b529c99310b2aee1f1846ce7",
+    "context": "host"
+   },
+   "7": {
+    "ref": "mpg123/1.29.3#b35d304609aa60cf1743e6924e63f61f",
+    "options": "flexible_resampling=True\nicy=True\nid3v2=True\nieeefloat=True\nlayer1=True\nlayer2=True\nlayer3=True\nmodule=dummy\nmoreinfo=True\nnetwork=False\nseektable=1000\nshared=True",
+    "package_id": "562846e1c24401ed60ddd973d78846689cb95cc2",
+    "prev": "c5b3531d3e08dec4a6ca4b0a58b1258c",
+    "context": "host"
+   },
+   "8": {
+    "ref": "libid3tag/0.15.2b@audacity/stable#0",
+    "options": "shared=False\nzlib=conan\nzlib:shared=True",
+    "package_id": "177e4dcd8901cd0ef1fcec3151e2b8388cf14a47",
+    "prev": "9fa25135814f6386da6224596815ce71",
+    "requires": [
+     "1"
+    ],
+    "context": "host"
+   },
+   "9": {
+    "ref": "wavpack/5.4.0#cc9a374d0e29ab9397e40a08b3ef26cf",
+    "options": "enable_dsd=True\nlegacy_format=False\nshared=True",
+    "package_id": "149c3cbffe15feb8948c72bae420304d464a1e75",
+    "prev": "84d93fe6e618395ac85e6831eb7b7f6b",
+    "context": "host"
+   },
+   "10": {
+    "ref": "ogg/1.3.4#9bc3a7c79c5eb58924c913bd765bff33",
+    "options": "shared=True",
+    "package_id": "bf9ec17af5844bd8d3cc139070000dc26fc5f076",
+    "prev": "05d5ba29e0cac5d078fda7b0d12c4324",
+    "context": "host"
+   },
+   "11": {
+    "ref": "flac/1.3.3#5244c7be998d1ff7dca942f91f18a12d",
+    "options": "shared=True\nogg:shared=True",
+    "package_id": "55bf2fe3e779e422407291d2c6953b77008f8baa",
+    "prev": "c0081f9bd333aca9f25791f60b5dfbd8",
+    "requires": [
+     "10"
+    ],
+    "context": "host"
+   },
+   "12": {
+    "ref": "opus/1.3.1#6938146de9da3b6817c85b6d522e8e4d",
+    "options": "fixed_point=False\nshared=True",
+    "package_id": "bf9ec17af5844bd8d3cc139070000dc26fc5f076",
+    "prev": "2baad4bf4f9e54d6ec31de3eac77ca99",
+    "context": "host"
+   },
+   "13": {
+    "ref": "vorbis/1.3.7#4bc83814e0814e1a03aa451411f82bd3",
+    "options": "shared=True\nogg:shared=True",
+    "package_id": "55bf2fe3e779e422407291d2c6953b77008f8baa",
+    "prev": "539f666484111cf65cb18f3c664803f4",
+    "requires": [
+     "10"
+    ],
+    "context": "host"
+   },
+   "14": {
+    "ref": "libsndfile/1.0.31#7205968cac566c67b564fa601190ebd6",
+    "options": "experimental=False\nprograms=True\nshared=True\nwith_external_libs=True\nflac:shared=True\nogg:shared=True\nopus:fixed_point=False\nopus:shared=True\nvorbis:shared=True",
+    "package_id": "523468543eb72e6b4139b60bf776f81f4569cfb1",
+    "prev": "714c7d5421382971583a3d59c60c0dd0",
+    "requires": [
+     "10",
+     "13",
+     "11",
+     "12"
+    ],
+    "context": "host"
+   },
+   "15": {
+    "ref": "vst3sdk/3.7.3#846c308e306c062753e21f86076ee69f",
+    "options": "",
+    "package_id": "164640aad040835ac89882393a96d89200694f04",
+    "prev": "b0548c9d654be399cccef56eaa985b20",
+    "context": "host"
+   },
+   "16": {
+    "ref": "portaudio/19.7.0#0",
+    "options": "build_framework=False\nshared=True\nwith_alsa=True\nwith_alsa_dynamic=False\nwith_asio=False\nwith_directsound=True\nwith_jack=False\nwith_mme=True\nwith_oss=True\nwith_static_runtime=False\nwith_wasapi=True\nwith_wdmks=False",
+    "package_id": "9bf5a005c0dddcd2e0ae3def03324e272eaeae9a",
+    "prev": "0b513e9bf4723aa9d1b8e77855ef60cd",
+    "context": "host"
+   },
+   "17": {
+    "ref": "portmidi/r234#0",
+    "options": "shared=True",
+    "package_id": "bf9ec17af5844bd8d3cc139070000dc26fc5f076",
+    "prev": "acf01f594cf81c72c275f01b135aec83",
+    "context": "host"
+   },
+   "18": {
+    "ref": "catch2/2.13.8#cf0a149edd2a5b15bdeeb95354066f7e",
+    "options": "default_reporter=None\nwith_main=False\nwith_prefix=False",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "dba33636530d56783917d6afc8595c36",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\nbuild_type=Debug\ncompiler=Visual Studio\ncompiler.runtime=MDd\ncompiler.version=17\ncppstd=17\nos=Windows\n&:build_type=Debug\n[options]\n&:use_catch2=True\n&:use_expat=True\n&:use_flac=True\n&:use_libid3tag=True\n&:use_libjpeg-turbo=True\n&:use_libmp3lame=True\n&:use_libpng=True\n&:use_libsndfile=True\n&:use_mpg123=True\n&:use_ogg=True\n&:use_opus=True\n&:use_portaudio=True\n&:use_portmidi=True\n&:use_vorbis=True\n&:use_vst3sdk=True\n&:use_wavpack=True\n&:use_wxwidgets=True\n&:use_zlib=True\n[build_requires]\n[env]\n",
+ "profile_build": "[settings]\narch=x86_64\nbuild_type=RelWithDebInfo\ncompiler=Visual Studio\ncompiler.runtime=MD\ncompiler.version=17\ncppstd=17\nos=Windows\n&:build_type=Release\n[options]\n[build_requires]\n[env]\n"
+}

@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\collections.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\instance.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\lib.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\node.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\plugin.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\pluginclass.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\port.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\query.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\scalepoint.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\state.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\ui.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\util.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\world.c">
+      <Filter>lilv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\zix\tree.c">
+      <Filter>lilv\src\zix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\serd\src\byte_source.c">
+      <Filter>serd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\serd\src\env.c">
+      <Filter>serd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\serd\src\n3.c">
+      <Filter>serd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\serd\src\node.c">
+      <Filter>serd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\serd\src\reader.c">
+      <Filter>serd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\serd\src\string.c">
+      <Filter>serd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\serd\src\uri.c">
+      <Filter>serd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\serd\src\writer.c">
+      <Filter>serd\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\sord\src\sord.c">
+      <Filter>sord\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\sord\src\syntax.c">
+      <Filter>sord\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\sord\src\zix\btree.c">
+      <Filter>sord\src\zix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\sord\src\zix\digest.c">
+      <Filter>sord\src\zix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\sord\src\zix\hash.c">
+      <Filter>sord\src\zix</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\sratom\src\sratom.c">
+      <Filter>sratom\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\suil\src\host.c">
+      <Filter>suil\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\lib-src\lv2\suil\src\instance.c">
+      <Filter>suil\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lilv\lilv\lilv.h">
+      <Filter>lilv\lilv</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\lilv_internal.h">
+      <Filter>lilv\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\zix\common.h">
+      <Filter>lilv\src\zix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lilv\src\zix\tree.h">
+      <Filter>lilv\src\zix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lilv\utils\bench.h">
+      <Filter>lilv\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lilv\utils\uri_table.h">
+      <Filter>lilv\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\serd\serd\serd.h">
+      <Filter>serd\serd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\serd\src\reader.h">
+      <Filter>serd\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\serd\src\serd_internal.h">
+      <Filter>serd\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\sord\sord\sord.h">
+      <Filter>sord\sord</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\sord\src\sord_internal.h">
+      <Filter>sord\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\sord\src\zix\btree.h">
+      <Filter>sord\src\zix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\sord\src\zix\common.h">
+      <Filter>sord\src\zix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\sord\src\zix\digest.h">
+      <Filter>sord\src\zix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\sord\src\zix\hash.h">
+      <Filter>sord\src\zix</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\sratom\sratom\sratom.h">
+      <Filter>sratom\sratom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\suil\src\suil_internal.h">
+      <Filter>suil\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\suil\suil\suil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\atom\atom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\atom\forge.h">
+      <Filter>lv2\lv2\atom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\atom\util.h">
+      <Filter>lv2\lv2\atom</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\buf-size\buf-size.h">
+      <Filter>lv2\lv2\buf-size</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\core\attributes.h">
+      <Filter>lv2\lv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\core\lv2.h">
+      <Filter>lv2\lv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\core\lv2_util.h">
+      <Filter>lv2\lv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\data-access\data-access.h">
+      <Filter>lv2\lv2\data-access</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\dynmanifest\dynmanifest.h">
+      <Filter>lv2\lv2\dynmanifest</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\event\event-helpers.h">
+      <Filter>lv2\lv2\event</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\event\event.h">
+      <Filter>lv2\lv2\event</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\instance-access\instance-access.h">
+      <Filter>lv2\lv2\instance-access</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\log\log.h">
+      <Filter>lv2\lv2\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\log\logger.h">
+      <Filter>lv2\lv2\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\midi\midi.h">
+      <Filter>lv2\lv2\midi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\morph\morph.h">
+      <Filter>lv2\lv2\morph</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\options\options.h">
+      <Filter>lv2\lv2\options</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\parameters\parameters.h">
+      <Filter>lv2\lv2\parameters</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\patch\patch.h">
+      <Filter>lv2\lv2\patch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\port-groups\port-groups.h">
+      <Filter>lv2\lv2\port-groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\port-props\port-props.h">
+      <Filter>lv2\lv2\port-props</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\presets\presets.h">
+      <Filter>lv2\lv2\presets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\resize-port\resize-port.h">
+      <Filter>lv2\lv2\resize-port</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\state\state.h">
+      <Filter>lv2\lv2\state</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\time\time.h">
+      <Filter>lv2\lv2\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\ui\ui.h">
+      <Filter>lv2\lv2\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\units\units.h">
+      <Filter>lv2\lv2\units</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\uri-map\uri-map.h">
+      <Filter>lv2\lv2\uri-map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\urid\urid.h">
+      <Filter>lv2\lv2\urid</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\lib-src\lv2\lv2\lv2\worker\worker.h">
+      <Filter>lv2\lv2\worker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\cmake-proxies\lv2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{248BBF7D-3561-313C-8DAC-89ADDEC237F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lilv">
+      <UniqueIdentifier>{A6234F18-E6FA-3378-8AB3-3FC552104AFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lilv\lilv">
+      <UniqueIdentifier>{227D79B6-B918-3060-AA02-0CC72A1EDAC8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lilv\src">
+      <UniqueIdentifier>{2F05297A-EF2D-3933-935A-D555B8E57010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lilv\src\zix">
+      <UniqueIdentifier>{27C694CE-FED4-3E5A-977C-3A41C83BC8DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lilv\utils">
+      <UniqueIdentifier>{6B3378AC-959F-3AFE-AD34-A145760682EE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2">
+      <UniqueIdentifier>{D5AB16B7-EB02-313A-BBA0-EB158B1218CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2">
+      <UniqueIdentifier>{26533FB3-6DFB-3784-85F1-DBF4A81367C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\atom">
+      <UniqueIdentifier>{4CE22228-011E-3690-9B1E-AA9DB5BF7FAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\buf-size">
+      <UniqueIdentifier>{D0E581A4-A51C-3B52-AF5B-F3CC2074C04B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\core">
+      <UniqueIdentifier>{108BB788-3229-3CFC-93FB-7D8C7DF51C85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\data-access">
+      <UniqueIdentifier>{A1641643-D7AE-36B4-B9C9-457C46375660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\dynmanifest">
+      <UniqueIdentifier>{15CD4DD3-A7FE-3B48-BDAE-C09F91D773EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\event">
+      <UniqueIdentifier>{B1FD8226-4EE0-342F-AC3A-67B5DF17C5B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\instance-access">
+      <UniqueIdentifier>{CAC86915-88C2-381E-8A10-0BAB1A359169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\log">
+      <UniqueIdentifier>{1E5545D0-B731-3C9F-B99A-F3B3DB56E565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\midi">
+      <UniqueIdentifier>{8767C959-8D36-35B5-9717-FF906797676B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\morph">
+      <UniqueIdentifier>{144ED37E-CAF8-353B-82CC-06A52342D84B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\options">
+      <UniqueIdentifier>{C5EADF5B-5AC1-3817-B41D-6F45E14FEA53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\parameters">
+      <UniqueIdentifier>{EC7C071B-DF37-33C0-838B-9B135EE60E92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\patch">
+      <UniqueIdentifier>{ACE5E27F-05F0-365F-B2F4-E6CA9E6F3C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\port-groups">
+      <UniqueIdentifier>{98228047-970E-3DAD-B753-D54A5AA56A10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\port-props">
+      <UniqueIdentifier>{9877B4C1-03F2-33A7-9F0C-3BCBF310FFA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\presets">
+      <UniqueIdentifier>{89D926C4-F8FE-3A0A-A6B5-894E5872C4FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\resize-port">
+      <UniqueIdentifier>{D481E2E4-33FC-35A5-860A-9671EC3EBF8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\state">
+      <UniqueIdentifier>{DF0A72BD-5462-30FE-BBFF-C01301531346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\time">
+      <UniqueIdentifier>{B699A616-43E0-3ADC-8D66-6B5B850D4DD0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\ui">
+      <UniqueIdentifier>{7F7D0453-5812-3B14-BE99-85D5671E2D75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\units">
+      <UniqueIdentifier>{7DB4BEF8-BA41-3AF7-ACEE-2D925160C42A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\uri-map">
+      <UniqueIdentifier>{B4E55096-BB17-3182-B4DC-4295B4BAFA03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\urid">
+      <UniqueIdentifier>{EF2D6D32-4622-3C34-8F0A-8ED926C5E4E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv2\lv2\worker">
+      <UniqueIdentifier>{54CE4944-FE10-3FCC-94FA-DAC318B59A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="serd">
+      <UniqueIdentifier>{482CB55E-D8A3-36E7-A189-87AF2FA7252E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="serd\serd">
+      <UniqueIdentifier>{2D8F95F4-A24F-3D9B-A97E-03E4A188B33E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="serd\src">
+      <UniqueIdentifier>{4FF627D9-65D4-3E0A-931B-030F4EB99513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sord">
+      <UniqueIdentifier>{812A7324-8E00-3C1F-B699-669A22439EAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sord\sord">
+      <UniqueIdentifier>{0D242342-8DDF-3461-B939-A681BE775C75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sord\src">
+      <UniqueIdentifier>{25F76555-C393-3151-8836-F23C800B24E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sord\src\zix">
+      <UniqueIdentifier>{8E320D9E-1145-39DA-8CD5-020A1B4268A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sratom">
+      <UniqueIdentifier>{4F643455-3F26-33F2-AED7-3668161D38E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sratom\sratom">
+      <UniqueIdentifier>{20E47FFD-9686-362A-B050-0B65C6627FBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sratom\src">
+      <UniqueIdentifier>{898CF918-E6CF-3FBC-995D-A91AA108646B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="suil">
+      <UniqueIdentifier>{6BA95893-5303-3BD2-9AD3-18D3CDEF5BFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="suil\src">
+      <UniqueIdentifier>{CFA5F271-6012-38BE-8267-276878D7F4F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

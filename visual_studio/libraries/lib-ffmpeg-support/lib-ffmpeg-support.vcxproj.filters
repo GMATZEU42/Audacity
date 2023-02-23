@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\FFmpegFunctions.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVCodecContextWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVCodecWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVDictionaryWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVFifoBufferWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVFormatContextWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVFrameWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVInputFormatWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVIOContextWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVOutputFormatWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVPacketWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVStreamWrapper.cpp">
+      <Filter>wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\DynamicLibraryHelpers.cpp">
+      <Filter>impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\FFmpegAPIResolver.cpp">
+      <Filter>impl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\55\AVCodecIDLookup.cpp">
+      <Filter>impl\avcodec\55</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\55\AVCodecImpl.cpp">
+      <Filter>impl\avcodec\55</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\55\AVFormatImpl.cpp">
+      <Filter>impl\avformat\55</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\52\AVUtilImpl.cpp">
+      <Filter>impl\avutil\52</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\57\AVCodecIDLookup.cpp">
+      <Filter>impl\avcodec\57</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\57\AVCodecImpl.cpp">
+      <Filter>impl\avcodec\57</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\57\AVFormatImpl.cpp">
+      <Filter>impl\avformat\57</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\55\AVUtilImpl.cpp">
+      <Filter>impl\avutil\55</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\58\AVCodecIDLookup.cpp">
+      <Filter>impl\avcodec\58</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\58\AVCodecImpl.cpp">
+      <Filter>impl\avcodec\58</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\58\AVFormatImpl.cpp">
+      <Filter>impl\avformat\58</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\56\AVUtilImpl.cpp">
+      <Filter>impl\avutil\56</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\59\AVCodecIDLookup.cpp">
+      <Filter>impl\avcodec\59</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\59\AVCodecImpl.cpp">
+      <Filter>impl\avcodec\59</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\59\AVFormatImpl.cpp">
+      <Filter>impl\avformat\59</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\57\AVUtilImpl.cpp">
+      <Filter>impl\avutil\57</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\AVCodecFunctionsLoader.cpp">
+      <Filter>impl\avcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\AVFormatFunctionsLoader.cpp">
+      <Filter>impl\avformat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\AVUtilFunctionsLoader.cpp">
+      <Filter>impl\avutil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\FFmpegTypes.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\FFmpegFunctions.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\AVCodecFunctions.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\AVCodecID.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\AVFormatFunctions.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\AVUtilFunctions.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVCodecContextWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVCodecWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVDictionaryWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVFifoBufferWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVFormatContextWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVFrameWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVInputFormatWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVIOContextWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVOutputFormatWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVPacketWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\wrappers\AVStreamWrapper.h">
+      <Filter>wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\DynamicLibraryHelpers.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\FFmpegAPIResolver.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\FFmpegLog.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\ffmpeg-2.3.6-single-header.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\52\avconfig.h">
+      <Filter>impl\avutil\52</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\ffmpeg-3.4.8-single-header.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\55\avconfig.h">
+      <Filter>impl\avutil\55</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\ffmpeg-4.2.4-single-header.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\56\avconfig.h">
+      <Filter>impl\avutil\56</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\ffmpeg-5.0.1-single-header.h">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\57\avconfig.h">
+      <Filter>impl\avutil\57</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\AVCodecFunctionsLoader.h">
+      <Filter>impl\avcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\AVFormatFunctionsLoader.h">
+      <Filter>impl\avformat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\AVUtilFunctionsLoader.h">
+      <Filter>impl\avutil</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\AVCodecIDLookup.inl">
+      <Filter>impl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\AVCodecContextWrapperImpl.inl">
+      <Filter>impl\avcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\AVCodecWrapperImpl.inl">
+      <Filter>impl\avcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avcodec\AVPacketWrapperImpl.inl">
+      <Filter>impl\avcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\AVFormatContextWrapperImpl.inl">
+      <Filter>impl\avformat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\AVIOContextWrapperImpl.inl">
+      <Filter>impl\avformat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\AVInputFormatWrapperImpl.inl">
+      <Filter>impl\avformat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\AVOutputFormatWrapperImpl.inl">
+      <Filter>impl\avformat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avformat\AVStreamWrapperImpl.inl">
+      <Filter>impl\avformat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\AVFrameWrapperImpl.inl">
+      <Filter>impl\avutil</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\impl\avutil\FFmpegLogImpl.inl">
+      <Filter>impl\avutil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\libraries\lib-ffmpeg-support\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="impl">
+      <UniqueIdentifier>{9167EC94-0336-3F78-B18C-AB485AC331D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avcodec">
+      <UniqueIdentifier>{827896DD-8870-362A-9866-985D4A2108ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avcodec\55">
+      <UniqueIdentifier>{70E6D98E-7FBE-3E59-9705-81EAFC1F43BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avcodec\57">
+      <UniqueIdentifier>{8CC70B82-01F0-3846-9D69-03CCD8AD21A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avcodec\58">
+      <UniqueIdentifier>{A8A237A9-83EF-39DB-BAC1-5CD4561EDC46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avcodec\59">
+      <UniqueIdentifier>{857D02BB-B6AC-3977-B3DC-99E63F132B77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avformat">
+      <UniqueIdentifier>{4C0BA2BC-0B66-35D5-A816-B9E037F6CF27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avformat\55">
+      <UniqueIdentifier>{4B465AC1-555C-307F-A77F-66AB2C755DCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avformat\57">
+      <UniqueIdentifier>{4B06FC0F-FC47-3C24-9716-BDA3A50FDB65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avformat\58">
+      <UniqueIdentifier>{6850E996-E59A-39FA-9B7F-FF00A317818D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avformat\59">
+      <UniqueIdentifier>{3DDD66F3-6176-3078-946E-DDE813C0A91B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avutil">
+      <UniqueIdentifier>{28E4450C-FF31-379B-8751-9D72AC263234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avutil\52">
+      <UniqueIdentifier>{A10AC2BD-3793-3771-B8FB-EF9667B115E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avutil\55">
+      <UniqueIdentifier>{0B81CB8A-9BC2-36B2-B4DA-E3C53634FDDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avutil\56">
+      <UniqueIdentifier>{8C467605-91E1-3A9F-83C6-7D26820BEDAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="impl\avutil\57">
+      <UniqueIdentifier>{FF159080-711C-3F09-B005-118877AF60E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wrappers">
+      <UniqueIdentifier>{2C23C4FC-4196-324A-A38D-64F08C90AFDD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

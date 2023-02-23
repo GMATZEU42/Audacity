@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\aud-do-support.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\dspprims.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\envelopes.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\equalizer.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\evalenv.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\fileio.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\init.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\misc.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\nyinit-dbg.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\nyinit.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\nyqmisc.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\nyquist-plot.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\nyquist.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\printrec.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\profile.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand1.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand10.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand11.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand12.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand2.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand3.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand4.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand5.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand6.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand7.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand8.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mand9.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\mandpluk.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\marmstk1.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\51951433d9b73923c9917653d8181eb7\sinewave.raw.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\sal-parse.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\sal.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\seq.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\seqfnint.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\seqmidi.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\sliders.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\sndfnint.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\spec-plot.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\spectral-analysis.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\stk.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\system.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\test.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\velocity.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\xlinit.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7d8af11ae816fa7716f9a89c27deba8b\xm.lsp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1dd7a9be8ae7c8a1f0f07360b0c01ca0\nyquist.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\nyquist\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Workspace\audacity\nyquist\aud-do-support.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\dspprims.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\envelopes.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\equalizer.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\evalenv.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\fileio.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\init.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\misc.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\nyinit-dbg.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\nyinit.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\nyqmisc.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\nyquist-plot.txt" />
+    <None Include="C:\Workspace\audacity\nyquist\nyquist.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\printrec.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\profile.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\sal-parse.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\sal.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\seq.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\seqfnint.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\seqmidi.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\sliders.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\sndfnint.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\spec-plot.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\spectral-analysis.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\stk.lsp" />
+    <None Include="C:\Workspace\audacity\lib-src\libnyquist\nyquist\sys\win\msvc\system.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\test.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\velocity.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\xlinit.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\xm.lsp" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand1.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand10.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand11.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand12.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand2.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand3.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand4.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand5.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand6.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand7.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand8.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mand9.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\mandpluk.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\marmstk1.raw" />
+    <None Include="C:\Workspace\audacity\nyquist\rawwaves\sinewave.raw" />
+    <None Include="C:\Workspace\audacity\visual_studio\nyquist\CMakeFiles\nyquist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{056F32F2-F9F5-30FA-8D64-BC3D98460815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

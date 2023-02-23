@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1eb3e04cc7724fe0334d3572f2a5befe\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\dc13bde481e54dae905e2832bfcd893a\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\fe5ff73e9206b9a46f51b0150bd77e78\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\61de72d1e44ff6a33edab57ea9dfac73\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\6a76dc8e58ecd7ae900347a3c402870a\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\351fec180322c4f46cd331cc3983bb75\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\9167db36d0ef8e85d6c3c6bf14a825cc\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\611f7edba9fbbf46fa0c2ab86bcd530d\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\d6948cba82c5123ba1c478cddda2a130\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\d83b59b16f4722aac1e0b704c1d1647b\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\82e4e8495e1ec010d94b42b43b13bdff\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\cb2d7566a604026d8f1d93a9af30a317\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\ef745da77780cc432a0e78179a54e9cd\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\d3bf810147508bbe0fb12b6123f55d3c\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\d140bafb3a7ca9228c1f209c220ef92d\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\b923935448732b1adf796c9761b6a7f7\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\9cb15d10bff6e07a3f44049b1f1de645\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\64fa961cd7658fdbf5360079beec19b3\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\579649799ec5d10ff7230b943e47341a\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\9e63c551c6e7da6f7a6036b5aa54ceae\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7b85b74340156a47d0d3170e30cc0107\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\4f1edd52315afee5fa302fe863def373\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\35b385214cc6da5d9a416c303782a50b\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\97b4fa00c954044f1412df291c902db1\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\9407e8f7f2fa8b6fec4239117b717f7b\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\17b9cd3cd07186ef4cd743f59fe58fff\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\6e77e6f7c85a7a96e2c1c06a7a9be0ba\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\8c0e9fafdb3b89b419a65d2796711f94\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\cdd6604b95a90a5bbef9486c5025ac93\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\08386303b6d9a23190a6b6c3d2ecb287\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\2fa59599d7c1a8986335ca301e55cdc1\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\c9492f73b9e33925c670217fec80343a\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\dafa99bd26f08ae598e7afb15cabf424\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\f518b449c013c9a270474bfc023c0e9e\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\dd1212b9d8e36e36f3ecff0981de3eb6\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\436fbb24d53763d746886847395171bf\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\de026b425d394b95ffe048ce398c2073\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\dcf3d64e9cfc4c1a3f0977e8fef02f02\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\38c3b02f488d7519a3a2235ce220a3e7\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\9dc5a70bf8c38710b6c34ae38977dfda\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\4e9452526c9c82dfc1d1a2280543130a\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\8190535b3ebe18fcc98c5b7b68ebf12c\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\ae851f671121a896981d58177e98ed19\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\b5b9cfbcd1e77ae1dee33e685b226cae\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\4cf7a62b99f778b6c8798835f512292c\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\e49cfaa43e9a251b0acf2e99a3bcbd17\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\7b169811893fca9e7a57bd24d8fb477f\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\33fa123ca4df8ec070713644b7605d0c\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\db6fac8ce1ea5e5cebe352a4c163fbdc\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\6ff1dc9599af7a6cd38bc6229d141231\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\9dcd96267918a9014ae9ae1dd7a65c37\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\5d377e3304b00bb6d1b283d9d9b3fc06\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\33d9d80433a6b0e60084fda460d655f4\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\865df4103f41e260737d5a0919a35807\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\8bad33f9ee949a5e1084b43f799cdbef\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\129021b7bc7919cfb245ee0d4457bd97\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\b128a25b12446dd36936f2bbf6d39505\audacity.mo.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\8656200f6746158a764b104a27a806c3\locale.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Workspace\audacity\locale\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Workspace\audacity\locale\af.po" />
+    <None Include="C:\Workspace\audacity\locale\ar.po" />
+    <None Include="C:\Workspace\audacity\locale\be.po" />
+    <None Include="C:\Workspace\audacity\locale\bg.po" />
+    <None Include="C:\Workspace\audacity\locale\bn.po" />
+    <None Include="C:\Workspace\audacity\locale\bs.po" />
+    <None Include="C:\Workspace\audacity\locale\ca.po" />
+    <None Include="C:\Workspace\audacity\locale\ca_ES@valencia.po" />
+    <None Include="C:\Workspace\audacity\locale\co.po" />
+    <None Include="C:\Workspace\audacity\locale\cs.po" />
+    <None Include="C:\Workspace\audacity\locale\cy.po" />
+    <None Include="C:\Workspace\audacity\locale\da.po" />
+    <None Include="C:\Workspace\audacity\locale\de.po" />
+    <None Include="C:\Workspace\audacity\locale\el.po" />
+    <None Include="C:\Workspace\audacity\locale\es.po" />
+    <None Include="C:\Workspace\audacity\locale\eu.po" />
+    <None Include="C:\Workspace\audacity\locale\eu_ES.po" />
+    <None Include="C:\Workspace\audacity\locale\fa.po" />
+    <None Include="C:\Workspace\audacity\locale\fi.po" />
+    <None Include="C:\Workspace\audacity\locale\fr.po" />
+    <None Include="C:\Workspace\audacity\locale\ga.po" />
+    <None Include="C:\Workspace\audacity\locale\gl.po" />
+    <None Include="C:\Workspace\audacity\locale\he.po" />
+    <None Include="C:\Workspace\audacity\locale\hi.po" />
+    <None Include="C:\Workspace\audacity\locale\hr.po" />
+    <None Include="C:\Workspace\audacity\locale\hu.po" />
+    <None Include="C:\Workspace\audacity\locale\hy.po" />
+    <None Include="C:\Workspace\audacity\locale\id.po" />
+    <None Include="C:\Workspace\audacity\locale\it.po" />
+    <None Include="C:\Workspace\audacity\locale\ja.po" />
+    <None Include="C:\Workspace\audacity\locale\ka.po" />
+    <None Include="C:\Workspace\audacity\locale\km.po" />
+    <None Include="C:\Workspace\audacity\locale\ko.po" />
+    <None Include="C:\Workspace\audacity\locale\lt.po" />
+    <None Include="C:\Workspace\audacity\locale\mk.po" />
+    <None Include="C:\Workspace\audacity\locale\mr.po" />
+    <None Include="C:\Workspace\audacity\locale\my.po" />
+    <None Include="C:\Workspace\audacity\locale\nb.po" />
+    <None Include="C:\Workspace\audacity\locale\nl.po" />
+    <None Include="C:\Workspace\audacity\locale\oc.po" />
+    <None Include="C:\Workspace\audacity\locale\pl.po" />
+    <None Include="C:\Workspace\audacity\locale\pt_BR.po" />
+    <None Include="C:\Workspace\audacity\locale\pt_PT.po" />
+    <None Include="C:\Workspace\audacity\locale\ro.po" />
+    <None Include="C:\Workspace\audacity\locale\ru.po" />
+    <None Include="C:\Workspace\audacity\locale\sk.po" />
+    <None Include="C:\Workspace\audacity\locale\sl.po" />
+    <None Include="C:\Workspace\audacity\locale\sr_RS.po" />
+    <None Include="C:\Workspace\audacity\locale\sr_RS@latin.po" />
+    <None Include="C:\Workspace\audacity\locale\sv.po" />
+    <None Include="C:\Workspace\audacity\locale\ta.po" />
+    <None Include="C:\Workspace\audacity\locale\tg.po" />
+    <None Include="C:\Workspace\audacity\locale\tr.po" />
+    <None Include="C:\Workspace\audacity\locale\uk.po" />
+    <None Include="C:\Workspace\audacity\locale\vi.po" />
+    <None Include="C:\Workspace\audacity\locale\zh_CN.po" />
+    <None Include="C:\Workspace\audacity\locale\zh_TW.po" />
+    <None Include="C:\Workspace\audacity\visual_studio\locale\CMakeFiles\locale" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{056F32F2-F9F5-30FA-8D64-BC3D98460815}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,39 @@
+########### AGGREGATED COMPONENTS AND DEPENDENCIES FOR THE MULTI CONFIG #####################
+#############################################################################################
+
+set(libmp3lame_COMPONENT_NAMES "")
+set(libmp3lame_FIND_DEPENDENCY_NAMES "")
+
+########### VARIABLES #######################################################################
+#############################################################################################
+set(libmp3lame_PACKAGE_FOLDER_RELWITHDEBINFO "C:/Users/giaco/.conan/data/libmp3lame/3.100/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0")
+set(libmp3lame_BUILD_MODULES_PATHS_RELWITHDEBINFO )
+
+
+set(libmp3lame_INCLUDE_DIRS_RELWITHDEBINFO "${libmp3lame_PACKAGE_FOLDER_RELWITHDEBINFO}/include")
+set(libmp3lame_RES_DIRS_RELWITHDEBINFO )
+set(libmp3lame_DEFINITIONS_RELWITHDEBINFO )
+set(libmp3lame_SHARED_LINK_FLAGS_RELWITHDEBINFO )
+set(libmp3lame_EXE_LINK_FLAGS_RELWITHDEBINFO )
+set(libmp3lame_OBJECTS_RELWITHDEBINFO )
+set(libmp3lame_COMPILE_DEFINITIONS_RELWITHDEBINFO )
+set(libmp3lame_COMPILE_OPTIONS_C_RELWITHDEBINFO )
+set(libmp3lame_COMPILE_OPTIONS_CXX_RELWITHDEBINFO )
+set(libmp3lame_LIB_DIRS_RELWITHDEBINFO "${libmp3lame_PACKAGE_FOLDER_RELWITHDEBINFO}/lib")
+set(libmp3lame_LIBS_RELWITHDEBINFO mp3lame)
+set(libmp3lame_SYSTEM_LIBS_RELWITHDEBINFO )
+set(libmp3lame_FRAMEWORK_DIRS_RELWITHDEBINFO )
+set(libmp3lame_FRAMEWORKS_RELWITHDEBINFO )
+set(libmp3lame_BUILD_DIRS_RELWITHDEBINFO "${libmp3lame_PACKAGE_FOLDER_RELWITHDEBINFO}/")
+
+# COMPOUND VARIABLES
+set(libmp3lame_COMPILE_OPTIONS_RELWITHDEBINFO
+    "$<$<COMPILE_LANGUAGE:CXX>:${libmp3lame_COMPILE_OPTIONS_CXX_RELWITHDEBINFO}>"
+    "$<$<COMPILE_LANGUAGE:C>:${libmp3lame_COMPILE_OPTIONS_C_RELWITHDEBINFO}>")
+set(libmp3lame_LINKER_FLAGS_RELWITHDEBINFO
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,SHARED_LIBRARY>:${libmp3lame_SHARED_LINK_FLAGS_RELWITHDEBINFO}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,MODULE_LIBRARY>:${libmp3lame_SHARED_LINK_FLAGS_RELWITHDEBINFO}>"
+    "$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:${libmp3lame_EXE_LINK_FLAGS_RELWITHDEBINFO}>")
+
+
+set(libmp3lame_COMPONENTS_RELWITHDEBINFO )

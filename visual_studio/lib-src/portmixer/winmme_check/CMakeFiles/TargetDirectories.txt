@@ -1,0 +1,3 @@
+C:/Workspace/audacity/visual_studio/lib-src/portmixer/winmme_check/CMakeFiles/CheckPaWinMME_GetStreamInputHandle.dir
+C:/Workspace/audacity/visual_studio/lib-src/portmixer/winmme_check/CMakeFiles/ALL_BUILD.dir
+C:/Workspace/audacity/visual_studio/lib-src/portmixer/winmme_check/CMakeFiles/ZERO_CHECK.dir

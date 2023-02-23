@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ipc\IPCChannel.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ipc\IPCClient.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ipc\IPCServer.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-ipc\internal\BufferedIPCChannel.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ipc\IPCChannel.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ipc\IPCClient.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ipc\IPCServer.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ipc\internal\BufferedIPCChannel.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ipc\internal\ipc-types.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-ipc\internal\socket_guard.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\libraries\lib-ipc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="internal">
+      <UniqueIdentifier>{DBF5A8DE-01AD-3FE6-BE16-BE070D90F3BD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

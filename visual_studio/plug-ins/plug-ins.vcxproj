@@ -1,0 +1,2145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7DF46BE1-A8B0-3D3D-B9B8-CD0B793C0E0A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>plug-ins</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\SpectralEditMulti.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditMulti.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditMulti.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditMulti.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\SpectralEditMulti.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditMulti.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditMulti.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditMulti.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditMulti.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\SpectralEditMulti.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditMulti.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditMulti.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditMulti.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditMulti.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\SpectralEditMulti.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditMulti.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditMulti.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditMulti.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditMulti.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\SpectralEditMulti.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditMulti.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\SpectralEditParametricEQ.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditParametricEQ.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditParametricEQ.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditParametricEQ.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\SpectralEditParametricEQ.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditParametricEQ.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditParametricEQ.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditParametricEQ.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditParametricEQ.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\SpectralEditParametricEQ.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditParametricEQ.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditParametricEQ.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditParametricEQ.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditParametricEQ.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\SpectralEditParametricEQ.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditParametricEQ.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditParametricEQ.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditParametricEQ.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditParametricEQ.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\SpectralEditParametricEQ.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditParametricEQ.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\SpectralEditShelves.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditShelves.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditShelves.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditShelves.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\SpectralEditShelves.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditShelves.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditShelves.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditShelves.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditShelves.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\SpectralEditShelves.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditShelves.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditShelves.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditShelves.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditShelves.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\SpectralEditShelves.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditShelves.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/SpectralEditShelves.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/SpectralEditShelves.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/SpectralEditShelves.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\SpectralEditShelves.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditShelves.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\StudioFadeOut.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/StudioFadeOut.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/StudioFadeOut.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/StudioFadeOut.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\StudioFadeOut.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\StudioFadeOut.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/StudioFadeOut.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/StudioFadeOut.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/StudioFadeOut.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\StudioFadeOut.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\StudioFadeOut.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/StudioFadeOut.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/StudioFadeOut.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/StudioFadeOut.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\StudioFadeOut.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\StudioFadeOut.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/StudioFadeOut.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/StudioFadeOut.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/StudioFadeOut.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\StudioFadeOut.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\StudioFadeOut.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\adjustable-fade.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/adjustable-fade.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/adjustable-fade.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/adjustable-fade.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\adjustable-fade.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\adjustable-fade.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/adjustable-fade.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/adjustable-fade.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/adjustable-fade.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\adjustable-fade.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\adjustable-fade.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/adjustable-fade.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/adjustable-fade.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/adjustable-fade.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\adjustable-fade.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\adjustable-fade.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/adjustable-fade.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/adjustable-fade.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/adjustable-fade.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\adjustable-fade.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\adjustable-fade.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\beat.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/beat.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/beat.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/beat.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\beat.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\beat.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/beat.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/beat.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/beat.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\beat.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\beat.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/beat.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/beat.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/beat.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\beat.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\beat.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/beat.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/beat.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/beat.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\beat.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\beat.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\clipfix.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/clipfix.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/clipfix.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/clipfix.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\clipfix.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\clipfix.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/clipfix.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/clipfix.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/clipfix.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\clipfix.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\clipfix.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/clipfix.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/clipfix.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/clipfix.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\clipfix.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\clipfix.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/clipfix.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/clipfix.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/clipfix.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\clipfix.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\clipfix.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\crossfadeclips.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/crossfadeclips.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/crossfadeclips.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/crossfadeclips.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\crossfadeclips.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadeclips.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/crossfadeclips.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/crossfadeclips.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/crossfadeclips.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\crossfadeclips.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadeclips.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/crossfadeclips.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/crossfadeclips.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/crossfadeclips.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\crossfadeclips.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadeclips.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/crossfadeclips.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/crossfadeclips.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/crossfadeclips.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\crossfadeclips.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadeclips.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\crossfadetracks.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/crossfadetracks.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/crossfadetracks.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/crossfadetracks.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\crossfadetracks.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadetracks.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/crossfadetracks.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/crossfadetracks.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/crossfadetracks.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\crossfadetracks.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadetracks.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/crossfadetracks.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/crossfadetracks.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/crossfadetracks.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\crossfadetracks.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadetracks.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/crossfadetracks.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/crossfadetracks.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/crossfadetracks.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\crossfadetracks.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadetracks.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\delay.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/delay.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/delay.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/delay.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\delay.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\delay.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/delay.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/delay.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/delay.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\delay.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\delay.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/delay.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/delay.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/delay.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\delay.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\delay.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/delay.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/delay.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/delay.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\delay.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\delay.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\eq-xml-to-txt-converter.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/eq-xml-to-txt-converter.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/eq-xml-to-txt-converter.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/eq-xml-to-txt-converter.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\eq-xml-to-txt-converter.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\eq-xml-to-txt-converter.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/eq-xml-to-txt-converter.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/eq-xml-to-txt-converter.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/eq-xml-to-txt-converter.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\eq-xml-to-txt-converter.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\eq-xml-to-txt-converter.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/eq-xml-to-txt-converter.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/eq-xml-to-txt-converter.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/eq-xml-to-txt-converter.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\eq-xml-to-txt-converter.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\eq-xml-to-txt-converter.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/eq-xml-to-txt-converter.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/eq-xml-to-txt-converter.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/eq-xml-to-txt-converter.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\eq-xml-to-txt-converter.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\eq-xml-to-txt-converter.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\equalabel.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/equalabel.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/equalabel.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/equalabel.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\equalabel.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\equalabel.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/equalabel.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/equalabel.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/equalabel.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\equalabel.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\equalabel.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/equalabel.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/equalabel.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/equalabel.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\equalabel.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\equalabel.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/equalabel.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/equalabel.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/equalabel.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\equalabel.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\equalabel.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\highpass.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/highpass.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/highpass.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/highpass.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\highpass.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\highpass.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/highpass.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/highpass.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/highpass.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\highpass.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\highpass.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/highpass.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/highpass.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/highpass.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\highpass.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\highpass.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/highpass.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/highpass.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/highpass.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\highpass.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\highpass.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\label-sounds.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/label-sounds.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/label-sounds.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/label-sounds.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\label-sounds.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\label-sounds.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/label-sounds.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/label-sounds.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/label-sounds.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\label-sounds.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\label-sounds.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/label-sounds.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/label-sounds.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/label-sounds.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\label-sounds.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\label-sounds.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/label-sounds.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/label-sounds.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/label-sounds.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\label-sounds.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\label-sounds.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\limiter.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/limiter.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/limiter.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/limiter.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\limiter.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\limiter.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/limiter.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/limiter.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/limiter.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\limiter.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\limiter.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/limiter.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/limiter.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/limiter.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\limiter.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\limiter.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/limiter.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/limiter.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/limiter.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\limiter.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\limiter.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\lowpass.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/lowpass.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/lowpass.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/lowpass.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\lowpass.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\lowpass.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/lowpass.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/lowpass.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/lowpass.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\lowpass.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\lowpass.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/lowpass.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/lowpass.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/lowpass.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\lowpass.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\lowpass.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/lowpass.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/lowpass.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/lowpass.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\lowpass.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\lowpass.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\noisegate.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/noisegate.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/noisegate.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/noisegate.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\noisegate.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\noisegate.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/noisegate.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/noisegate.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/noisegate.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\noisegate.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\noisegate.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/noisegate.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/noisegate.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/noisegate.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\noisegate.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\noisegate.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/noisegate.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/noisegate.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/noisegate.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\noisegate.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\noisegate.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\notch.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/notch.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/notch.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/notch.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\notch.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\notch.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/notch.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/notch.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/notch.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\notch.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\notch.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/notch.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/notch.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/notch.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\notch.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\notch.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/notch.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/notch.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/notch.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\notch.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\notch.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\nyquist-plug-in-installer.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/nyquist-plug-in-installer.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/nyquist-plug-in-installer.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/nyquist-plug-in-installer.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\nyquist-plug-in-installer.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\nyquist-plug-in-installer.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/nyquist-plug-in-installer.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/nyquist-plug-in-installer.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/nyquist-plug-in-installer.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\nyquist-plug-in-installer.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\nyquist-plug-in-installer.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/nyquist-plug-in-installer.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/nyquist-plug-in-installer.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/nyquist-plug-in-installer.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\nyquist-plug-in-installer.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\nyquist-plug-in-installer.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/nyquist-plug-in-installer.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/nyquist-plug-in-installer.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/nyquist-plug-in-installer.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\nyquist-plug-in-installer.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\nyquist-plug-in-installer.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\pluck.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/pluck.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/pluck.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/pluck.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\pluck.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\pluck.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/pluck.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/pluck.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/pluck.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\pluck.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\pluck.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/pluck.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/pluck.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/pluck.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\pluck.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\pluck.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/pluck.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/pluck.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/pluck.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\pluck.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\pluck.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\rhythmtrack.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/rhythmtrack.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rhythmtrack.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rhythmtrack.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\rhythmtrack.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rhythmtrack.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/rhythmtrack.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rhythmtrack.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rhythmtrack.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\rhythmtrack.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rhythmtrack.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/rhythmtrack.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rhythmtrack.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rhythmtrack.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\rhythmtrack.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rhythmtrack.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/rhythmtrack.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rhythmtrack.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rhythmtrack.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\rhythmtrack.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rhythmtrack.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\rissetdrum.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/rissetdrum.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rissetdrum.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rissetdrum.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\rissetdrum.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rissetdrum.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/rissetdrum.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rissetdrum.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rissetdrum.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\rissetdrum.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rissetdrum.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/rissetdrum.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rissetdrum.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rissetdrum.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\rissetdrum.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rissetdrum.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/rissetdrum.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rissetdrum.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rissetdrum.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\rissetdrum.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rissetdrum.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\rms.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/rms.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rms.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rms.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\rms.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rms.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/rms.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rms.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rms.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\rms.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rms.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/rms.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rms.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rms.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\rms.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rms.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/rms.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/rms.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/rms.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\rms.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rms.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\sample-data-export.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/sample-data-export.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/sample-data-export.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/sample-data-export.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\sample-data-export.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-export.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/sample-data-export.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/sample-data-export.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/sample-data-export.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\sample-data-export.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-export.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/sample-data-export.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/sample-data-export.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/sample-data-export.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\sample-data-export.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-export.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/sample-data-export.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/sample-data-export.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/sample-data-export.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\sample-data-export.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-export.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\sample-data-import.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/sample-data-import.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/sample-data-import.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/sample-data-import.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\sample-data-import.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-import.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/sample-data-import.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/sample-data-import.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/sample-data-import.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\sample-data-import.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-import.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/sample-data-import.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/sample-data-import.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/sample-data-import.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\sample-data-import.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-import.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/sample-data-import.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/sample-data-import.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/sample-data-import.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\sample-data-import.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-import.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\spectral-delete.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/spectral-delete.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/spectral-delete.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/spectral-delete.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\spectral-delete.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\spectral-delete.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/spectral-delete.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/spectral-delete.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/spectral-delete.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\spectral-delete.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\spectral-delete.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/spectral-delete.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/spectral-delete.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/spectral-delete.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\spectral-delete.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\spectral-delete.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/spectral-delete.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/spectral-delete.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/spectral-delete.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\spectral-delete.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\spectral-delete.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\tremolo.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/tremolo.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/tremolo.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/tremolo.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\tremolo.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\tremolo.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/tremolo.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/tremolo.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/tremolo.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\tremolo.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\tremolo.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/tremolo.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/tremolo.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/tremolo.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\tremolo.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\tremolo.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/tremolo.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/tremolo.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/tremolo.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\tremolo.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\tremolo.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\vocalrediso.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/vocalrediso.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/vocalrediso.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/vocalrediso.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\vocalrediso.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocalrediso.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/vocalrediso.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/vocalrediso.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/vocalrediso.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\vocalrediso.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocalrediso.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/vocalrediso.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/vocalrediso.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/vocalrediso.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\vocalrediso.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocalrediso.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/vocalrediso.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/vocalrediso.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/vocalrediso.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\vocalrediso.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocalrediso.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\1a27c9fd80a4a4f61212d3d19cf685dc\vocoder.ny.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../$(Configuration)/plug-ins/vocoder.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/vocoder.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/vocoder.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\plug-ins\vocoder.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocoder.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../$(Configuration)/plug-ins/vocoder.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/vocoder.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/vocoder.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\plug-ins\vocoder.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocoder.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ../$(Configuration)/plug-ins/vocoder.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/vocoder.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/vocoder.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\plug-ins\vocoder.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocoder.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../$(Configuration)/plug-ins/vocoder.ny</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Workspace/audacity/plug-ins/vocoder.ny C:/Workspace/audacity/visual_studio/$(Configuration)/plug-ins/vocoder.ny
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\plug-ins\vocoder.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocoder.ny</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\visual_studio\CMakeFiles\6a4bd5012e8705a64782a579eb3030ca\plug-ins.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditMulti.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditParametricEQ.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditShelves.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\StudioFadeOut.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\adjustable-fade.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\beat.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\clipfix.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadeclips.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadetracks.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\delay.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\eq-xml-to-txt-converter.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\equalabel.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\highpass.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\label-sounds.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\limiter.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\lowpass.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\noisegate.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\notch.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\nyquist-plug-in-installer.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\pluck.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rhythmtrack.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rissetdrum.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rms.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-export.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-import.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\spectral-delete.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\tremolo.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocalrediso.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocoder.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\plug-ins\CMakeFiles\plug-ins</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditMulti.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditParametricEQ.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditShelves.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\StudioFadeOut.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\adjustable-fade.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\beat.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\clipfix.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadeclips.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadetracks.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\delay.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\eq-xml-to-txt-converter.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\equalabel.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\highpass.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\label-sounds.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\limiter.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\lowpass.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\noisegate.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\notch.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\nyquist-plug-in-installer.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\pluck.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rhythmtrack.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rissetdrum.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rms.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-export.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-import.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\spectral-delete.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\tremolo.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocalrediso.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocoder.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\plug-ins\CMakeFiles\plug-ins</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditMulti.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditParametricEQ.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditShelves.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\StudioFadeOut.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\adjustable-fade.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\beat.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\clipfix.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadeclips.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadetracks.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\delay.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\eq-xml-to-txt-converter.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\equalabel.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\highpass.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\label-sounds.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\limiter.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\lowpass.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\noisegate.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\notch.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\nyquist-plug-in-installer.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\pluck.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rhythmtrack.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rissetdrum.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rms.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-export.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-import.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\spectral-delete.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\tremolo.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocalrediso.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocoder.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\plug-ins\CMakeFiles\plug-ins</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditMulti.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditParametricEQ.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\SpectralEditShelves.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\StudioFadeOut.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\adjustable-fade.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\beat.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\clipfix.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadeclips.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\crossfadetracks.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\delay.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\eq-xml-to-txt-converter.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\equalabel.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\highpass.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\label-sounds.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\limiter.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\lowpass.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\noisegate.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\notch.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\nyquist-plug-in-installer.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\pluck.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rhythmtrack.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rissetdrum.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\rms.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-export.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\sample-data-import.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\spectral-delete.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\tremolo.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocalrediso.ny;C:\Workspace\audacity\visual_studio\$(Configuration)\plug-ins\vocoder.ny;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\plug-ins\CMakeFiles\plug-ins</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\plug-ins\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Workspace/audacity/plug-ins/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/plug-ins/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\plug-ins\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Workspace/audacity/plug-ins/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/plug-ins/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\plug-ins\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Workspace/audacity/plug-ins/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/plug-ins/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\plug-ins\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Workspace/audacity/plug-ins/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/plug-ins/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\plug-ins\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Workspace\audacity\plug-ins\SpectralEditMulti.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\SpectralEditParametricEQ.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\SpectralEditShelves.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\StudioFadeOut.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\adjustable-fade.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\beat.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\clipfix.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\crossfadeclips.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\crossfadetracks.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\delay.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\eq-xml-to-txt-converter.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\equalabel.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\highpass.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\label-sounds.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\limiter.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\lowpass.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\noisegate.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\notch.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\nyquist-plug-in-installer.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\pluck.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\rhythmtrack.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\rissetdrum.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\rms.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\sample-data-export.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\sample-data-import.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\spectral-delete.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\tremolo.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\vocalrediso.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\plug-ins\vocoder.ny">
+    </None>
+    <None Include="C:\Workspace\audacity\visual_studio\plug-ins\CMakeFiles\plug-ins">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\ZERO_CHECK.vcxproj">
+      <Project>{5C83DB05-B105-3759-BC44-A10D37C5FC96}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

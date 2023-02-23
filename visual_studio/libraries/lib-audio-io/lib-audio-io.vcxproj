@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{36F43C7D-D71D-3D36-ADD4-6CBA0B2261D0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>lib-audio-io</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lib-audio-io.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lib-audio-io</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lib-audio-io.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lib-audio-io</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lib-audio-io.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lib-audio-io</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lib-audio-io.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lib-audio-io</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\7b6179636cd96e2eaf6628a5948c95243b67b127\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\7b6179636cd96e2eaf6628a5948c95243b67b127\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/zlib/1.2.11/_/_/package/bf9ec17af5844bd8d3cc139070000dc26fc5f076/include" /external:I "C:/Users/giaco/.conan/data/expat/2.2.9/audacity/stable/package/bf9ec17af5844bd8d3cc139070000dc26fc5f076/include" /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/9bf5a005c0dddcd2e0ae3def03324e272eaeae9a/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForcedIncludeFiles>C:/Workspace/audacity/visual_studio/src/private/configwin.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;AUDACITY_VERSION=3;AUDACITY_RELEASE=3;AUDACITY_REVISION=0;AUDACITY_MODLEVEL=0;AUDACITY_VERSION_STRING=L"3.3.0-alpha-20230223";AUDACITY_FILE_VERSION=L"3,3,0,0";PROHIBITED==delete;safenew=new;WXINTL_NO_GETTEXT_MACRO;_USE_MATH_DEFINES;NOMINMAX;_DEBUG=1;IS_ALPHA;USE_ALPHA_MANUAL;wxUSE_GUI=0;_WX_APP_H_BASE_;_WX_EVTLOOP_H_;_WX_IMAGE_H;_WX_COLOUR_H_BASE_;_WX_BRUSH_H_BASE_;_WX_PEN_H_BASE_;AUDIO_IO_API=__declspec(dllexport);EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;PROJECT_RATE_API=__declspec(dllimport);PROJECT_API=__declspec(dllimport);REGISTRIES_API=__declspec(dllimport);PREFERENCES_API=__declspec(dllimport);BASIC_UI_API=__declspec(dllimport);STRINGS_API=__declspec(dllimport);__WXDEBUG__;WXUSINGDLL;__WXMSW__;wxNO_NET_LIB;wxNO_XML_LIB;wxNO_REGEX_LIB;wxNO_ZLIB_LIB;wxNO_JPEG_LIB;wxNO_PNG_LIB;wxNO_TIFF_LIB;wxNO_ADV_LIB;wxNO_HTML_LIB;wxNO_GL_LIB;wxNO_QA_LIB;wxNO_XRC_LIB;wxNO_AUI_LIB;wxNO_PROPGRID_LIB;wxNO_RIBBON_LIB;wxNO_RICHTEXT_LIB;wxNO_MEDIA_LIB;wxNO_STC_LIB;wxNO_WEBVIEW_LIB;COMPONENTS_API=__declspec(dllimport);UTILITY_API=__declspec(dllimport);EXCEPTIONS_API=__declspec(dllimport);XML_API=__declspec(dllimport);FILES_API=__declspec(dllimport);STRING_UTILS_API=__declspec(dllimport);AUDIO_DEVICES_API=__declspec(dllimport);USE_PORTMIXER=1;MATH_API=__declspec(dllimport);REALTIME_EFFECTS_API=__declspec(dllimport);MODULE_MANAGER_API=__declspec(dllimport);IPC_API=__declspec(dllimport);PROJECT_HISTORY_API=__declspec(dllimport);SCREEN_GEOMETRY_API=__declspec(dllimport);TRACK_API=__declspec(dllimport);TRANSACTIONS_API=__declspec(dllimport);SAMPLE_TRACK_API=__declspec(dllimport);AUDIO_GRAPH_API=__declspec(dllimport);CMAKE_INTDIR="Debug";lib_audio_io_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;_DEBUG;WIN32;_WINDOWS;AUDACITY_VERSION=3;AUDACITY_RELEASE=3;AUDACITY_REVISION=0;AUDACITY_MODLEVEL=0;AUDACITY_VERSION_STRING=L\"3.3.0-alpha-20230223\";AUDACITY_FILE_VERSION=L\"3,3,0,0\";PROHIBITED==delete;safenew=new;WXINTL_NO_GETTEXT_MACRO;_USE_MATH_DEFINES;NOMINMAX;_DEBUG=1;IS_ALPHA;USE_ALPHA_MANUAL;wxUSE_GUI=0;_WX_APP_H_BASE_;_WX_EVTLOOP_H_;_WX_IMAGE_H;_WX_COLOUR_H_BASE_;_WX_BRUSH_H_BASE_;_WX_PEN_H_BASE_;AUDIO_IO_API=__declspec(dllexport);EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;PROJECT_RATE_API=__declspec(dllimport);PROJECT_API=__declspec(dllimport);REGISTRIES_API=__declspec(dllimport);PREFERENCES_API=__declspec(dllimport);BASIC_UI_API=__declspec(dllimport);STRINGS_API=__declspec(dllimport);__WXDEBUG__;WXUSINGDLL;__WXMSW__;wxNO_NET_LIB;wxNO_XML_LIB;wxNO_REGEX_LIB;wxNO_ZLIB_LIB;wxNO_JPEG_LIB;wxNO_PNG_LIB;wxNO_TIFF_LIB;wxNO_ADV_LIB;wxNO_HTML_LIB;wxNO_GL_LIB;wxNO_QA_LIB;wxNO_XRC_LIB;wxNO_AUI_LIB;wxNO_PROPGRID_LIB;wxNO_RIBBON_LIB;wxNO_RICHTEXT_LIB;wxNO_MEDIA_LIB;wxNO_STC_LIB;wxNO_WEBVIEW_LIB;COMPONENTS_API=__declspec(dllimport);UTILITY_API=__declspec(dllimport);EXCEPTIONS_API=__declspec(dllimport);XML_API=__declspec(dllimport);FILES_API=__declspec(dllimport);STRING_UTILS_API=__declspec(dllimport);AUDIO_DEVICES_API=__declspec(dllimport);USE_PORTMIXER=1;MATH_API=__declspec(dllimport);REALTIME_EFFECTS_API=__declspec(dllimport);MODULE_MANAGER_API=__declspec(dllimport);IPC_API=__declspec(dllimport);PROJECT_HISTORY_API=__declspec(dllimport);SCREEN_GEOMETRY_API=__declspec(dllimport);TRACK_API=__declspec(dllimport);TRANSACTIONS_API=__declspec(dllimport);SAMPLE_TRACK_API=__declspec(dllimport);AUDIO_GRAPH_API=__declspec(dllimport);CMAKE_INTDIR=\"Debug\";lib_audio_io_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\7b6179636cd96e2eaf6628a5948c95243b67b127\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\7b6179636cd96e2eaf6628a5948c95243b67b127\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\include;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\9bf5a005c0dddcd2e0ae3def03324e272eaeae9a\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\7b6179636cd96e2eaf6628a5948c95243b67b127\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\7b6179636cd96e2eaf6628a5948c95243b67b127\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\include;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\9bf5a005c0dddcd2e0ae3def03324e272eaeae9a\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib-project-rate\Debug\lib-project-rate.lib;..\lib-realtime-effects\Debug\lib-realtime-effects.lib;..\lib-sample-track\Debug\lib-sample-track.lib;..\lib-audio-devices\Debug\lib-audio-devices.lib;..\..\lib-src\portmixer\Debug\portmixer.lib;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\9bf5a005c0dddcd2e0ae3def03324e272eaeae9a\lib\portaudio_x64.lib;..\lib-module-manager\Debug\lib-module-manager.lib;..\lib-ipc\Debug\lib-ipc.lib;..\lib-project-history\Debug\lib-project-history.lib;..\lib-screen-geometry\Debug\lib-screen-geometry.lib;..\lib-transactions\Debug\lib-transactions.lib;..\lib-audio-graph\Debug\lib-audio-graph.lib;..\lib-math\Debug\lib-math.lib;..\..\cmake-proxies\libsoxr\Debug\libsoxr.lib;..\lib-track\Debug\lib-track.lib;..\lib-project\Debug\lib-project.lib;..\lib-registries\Debug\lib-registries.lib;..\lib-xml\Debug\lib-xml.lib;..\lib-files\Debug\lib-files.lib;..\lib-preferences\Debug\lib-preferences.lib;..\lib-components\Debug\lib-components.lib;..\lib-exceptions\Debug\lib-exceptions.lib;..\lib-basic-ui\Debug\lib-basic-ui.lib;..\lib-strings\Debug\lib-strings.lib;..\lib-utility\Debug\lib-utility.lib;..\lib-string-utils\Debug\lib-string-utils.lib;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\7b6179636cd96e2eaf6628a5948c95243b67b127\lib\vc_x64_dll\wxbase31ud.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;wininet.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\lib\zdll.lib;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\bf9ec17af5844bd8d3cc139070000dc26fc5f076\lib\libexpatd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Workspace/audacity/visual_studio/libraries/lib-audio-io/Debug/lib-audio-io.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Workspace/audacity/visual_studio/$(Configuration)/lib-audio-io.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/zlib/1.2.11/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/expat/2.2.9/audacity/stable/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/f8004b13ba3d25eb6354835cd3e9101dc2e51cac/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForcedIncludeFiles>C:/Workspace/audacity/visual_studio/src/private/configwin.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UndefinePreprocessorDefinitions>_DEBUG</UndefinePreprocessorDefinitions>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AUDACITY_VERSION=3;AUDACITY_RELEASE=3;AUDACITY_REVISION=0;AUDACITY_MODLEVEL=0;AUDACITY_VERSION_STRING=L"3.3.0-alpha-20230223";AUDACITY_FILE_VERSION=L"3,3,0,0";PROHIBITED==delete;safenew=new;WXINTL_NO_GETTEXT_MACRO;_USE_MATH_DEFINES;NOMINMAX;IS_ALPHA;USE_ALPHA_MANUAL;wxUSE_GUI=0;_WX_APP_H_BASE_;_WX_EVTLOOP_H_;_WX_IMAGE_H;_WX_COLOUR_H_BASE_;_WX_BRUSH_H_BASE_;_WX_PEN_H_BASE_;AUDIO_IO_API=__declspec(dllexport);EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;PROJECT_RATE_API=__declspec(dllimport);PROJECT_API=__declspec(dllimport);REGISTRIES_API=__declspec(dllimport);PREFERENCES_API=__declspec(dllimport);BASIC_UI_API=__declspec(dllimport);STRINGS_API=__declspec(dllimport);WXUSINGDLL;__WXMSW__;wxNO_NET_LIB;wxNO_XML_LIB;wxNO_REGEX_LIB;wxNO_ZLIB_LIB;wxNO_JPEG_LIB;wxNO_PNG_LIB;wxNO_TIFF_LIB;wxNO_ADV_LIB;wxNO_HTML_LIB;wxNO_GL_LIB;wxNO_QA_LIB;wxNO_XRC_LIB;wxNO_AUI_LIB;wxNO_PROPGRID_LIB;wxNO_RIBBON_LIB;wxNO_RICHTEXT_LIB;wxNO_MEDIA_LIB;wxNO_STC_LIB;wxNO_WEBVIEW_LIB;COMPONENTS_API=__declspec(dllimport);UTILITY_API=__declspec(dllimport);EXCEPTIONS_API=__declspec(dllimport);XML_API=__declspec(dllimport);FILES_API=__declspec(dllimport);STRING_UTILS_API=__declspec(dllimport);AUDIO_DEVICES_API=__declspec(dllimport);USE_PORTMIXER=1;MATH_API=__declspec(dllimport);REALTIME_EFFECTS_API=__declspec(dllimport);MODULE_MANAGER_API=__declspec(dllimport);IPC_API=__declspec(dllimport);PROJECT_HISTORY_API=__declspec(dllimport);SCREEN_GEOMETRY_API=__declspec(dllimport);TRACK_API=__declspec(dllimport);TRANSACTIONS_API=__declspec(dllimport);SAMPLE_TRACK_API=__declspec(dllimport);AUDIO_GRAPH_API=__declspec(dllimport);CMAKE_INTDIR="Release";lib_audio_io_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;WIN32;_WINDOWS;NDEBUG;AUDACITY_VERSION=3;AUDACITY_RELEASE=3;AUDACITY_REVISION=0;AUDACITY_MODLEVEL=0;AUDACITY_VERSION_STRING=L\"3.3.0-alpha-20230223\";AUDACITY_FILE_VERSION=L\"3,3,0,0\";PROHIBITED==delete;safenew=new;WXINTL_NO_GETTEXT_MACRO;_USE_MATH_DEFINES;NOMINMAX;IS_ALPHA;USE_ALPHA_MANUAL;wxUSE_GUI=0;_WX_APP_H_BASE_;_WX_EVTLOOP_H_;_WX_IMAGE_H;_WX_COLOUR_H_BASE_;_WX_BRUSH_H_BASE_;_WX_PEN_H_BASE_;AUDIO_IO_API=__declspec(dllexport);EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;PROJECT_RATE_API=__declspec(dllimport);PROJECT_API=__declspec(dllimport);REGISTRIES_API=__declspec(dllimport);PREFERENCES_API=__declspec(dllimport);BASIC_UI_API=__declspec(dllimport);STRINGS_API=__declspec(dllimport);WXUSINGDLL;__WXMSW__;wxNO_NET_LIB;wxNO_XML_LIB;wxNO_REGEX_LIB;wxNO_ZLIB_LIB;wxNO_JPEG_LIB;wxNO_PNG_LIB;wxNO_TIFF_LIB;wxNO_ADV_LIB;wxNO_HTML_LIB;wxNO_GL_LIB;wxNO_QA_LIB;wxNO_XRC_LIB;wxNO_AUI_LIB;wxNO_PROPGRID_LIB;wxNO_RIBBON_LIB;wxNO_RICHTEXT_LIB;wxNO_MEDIA_LIB;wxNO_STC_LIB;wxNO_WEBVIEW_LIB;COMPONENTS_API=__declspec(dllimport);UTILITY_API=__declspec(dllimport);EXCEPTIONS_API=__declspec(dllimport);XML_API=__declspec(dllimport);FILES_API=__declspec(dllimport);STRING_UTILS_API=__declspec(dllimport);AUDIO_DEVICES_API=__declspec(dllimport);USE_PORTMIXER=1;MATH_API=__declspec(dllimport);REALTIME_EFFECTS_API=__declspec(dllimport);MODULE_MANAGER_API=__declspec(dllimport);IPC_API=__declspec(dllimport);PROJECT_HISTORY_API=__declspec(dllimport);SCREEN_GEOMETRY_API=__declspec(dllimport);TRACK_API=__declspec(dllimport);TRANSACTIONS_API=__declspec(dllimport);SAMPLE_TRACK_API=__declspec(dllimport);AUDIO_GRAPH_API=__declspec(dllimport);CMAKE_INTDIR=\"Release\";lib_audio_io_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib-project-rate\Release\lib-project-rate.lib;..\lib-realtime-effects\Release\lib-realtime-effects.lib;..\lib-sample-track\Release\lib-sample-track.lib;..\lib-audio-devices\Release\lib-audio-devices.lib;..\..\lib-src\portmixer\Release\portmixer.lib;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\lib\portaudio_x64.lib;..\lib-module-manager\Release\lib-module-manager.lib;..\lib-ipc\Release\lib-ipc.lib;..\lib-project-history\Release\lib-project-history.lib;..\lib-screen-geometry\Release\lib-screen-geometry.lib;..\lib-transactions\Release\lib-transactions.lib;..\lib-audio-graph\Release\lib-audio-graph.lib;..\lib-math\Release\lib-math.lib;..\..\cmake-proxies\libsoxr\Release\libsoxr.lib;..\lib-track\Release\lib-track.lib;..\lib-project\Release\lib-project.lib;..\lib-registries\Release\lib-registries.lib;..\lib-xml\Release\lib-xml.lib;..\lib-files\Release\lib-files.lib;..\lib-preferences\Release\lib-preferences.lib;..\lib-components\Release\lib-components.lib;..\lib-exceptions\Release\lib-exceptions.lib;..\lib-basic-ui\Release\lib-basic-ui.lib;..\lib-strings\Release\lib-strings.lib;..\lib-utility\Release\lib-utility.lib;..\lib-string-utils\Release\lib-string-utils.lib;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\lib\vc_x64_dll\wxbase31u.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;wininet.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\lib\zdll.lib;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\lib\libexpat.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Workspace/audacity/visual_studio/libraries/lib-audio-io/Release/lib-audio-io.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Workspace/audacity/visual_studio/$(Configuration)/lib-audio-io.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/zlib/1.2.11/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/expat/2.2.9/audacity/stable/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/f8004b13ba3d25eb6354835cd3e9101dc2e51cac/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForcedIncludeFiles>C:/Workspace/audacity/visual_studio/src/private/configwin.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UndefinePreprocessorDefinitions>_DEBUG</UndefinePreprocessorDefinitions>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AUDACITY_VERSION=3;AUDACITY_RELEASE=3;AUDACITY_REVISION=0;AUDACITY_MODLEVEL=0;AUDACITY_VERSION_STRING=L"3.3.0-alpha-20230223";AUDACITY_FILE_VERSION=L"3,3,0,0";PROHIBITED==delete;safenew=new;WXINTL_NO_GETTEXT_MACRO;_USE_MATH_DEFINES;NOMINMAX;IS_ALPHA;USE_ALPHA_MANUAL;wxUSE_GUI=0;_WX_APP_H_BASE_;_WX_EVTLOOP_H_;_WX_IMAGE_H;_WX_COLOUR_H_BASE_;_WX_BRUSH_H_BASE_;_WX_PEN_H_BASE_;AUDIO_IO_API=__declspec(dllexport);EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;PROJECT_RATE_API=__declspec(dllimport);PROJECT_API=__declspec(dllimport);REGISTRIES_API=__declspec(dllimport);PREFERENCES_API=__declspec(dllimport);BASIC_UI_API=__declspec(dllimport);STRINGS_API=__declspec(dllimport);WXUSINGDLL;__WXMSW__;wxNO_NET_LIB;wxNO_XML_LIB;wxNO_REGEX_LIB;wxNO_ZLIB_LIB;wxNO_JPEG_LIB;wxNO_PNG_LIB;wxNO_TIFF_LIB;wxNO_ADV_LIB;wxNO_HTML_LIB;wxNO_GL_LIB;wxNO_QA_LIB;wxNO_XRC_LIB;wxNO_AUI_LIB;wxNO_PROPGRID_LIB;wxNO_RIBBON_LIB;wxNO_RICHTEXT_LIB;wxNO_MEDIA_LIB;wxNO_STC_LIB;wxNO_WEBVIEW_LIB;COMPONENTS_API=__declspec(dllimport);UTILITY_API=__declspec(dllimport);EXCEPTIONS_API=__declspec(dllimport);XML_API=__declspec(dllimport);FILES_API=__declspec(dllimport);STRING_UTILS_API=__declspec(dllimport);AUDIO_DEVICES_API=__declspec(dllimport);USE_PORTMIXER=1;MATH_API=__declspec(dllimport);REALTIME_EFFECTS_API=__declspec(dllimport);MODULE_MANAGER_API=__declspec(dllimport);IPC_API=__declspec(dllimport);PROJECT_HISTORY_API=__declspec(dllimport);SCREEN_GEOMETRY_API=__declspec(dllimport);TRACK_API=__declspec(dllimport);TRANSACTIONS_API=__declspec(dllimport);SAMPLE_TRACK_API=__declspec(dllimport);AUDIO_GRAPH_API=__declspec(dllimport);CMAKE_INTDIR="MinSizeRel";lib_audio_io_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;WIN32;_WINDOWS;NDEBUG;AUDACITY_VERSION=3;AUDACITY_RELEASE=3;AUDACITY_REVISION=0;AUDACITY_MODLEVEL=0;AUDACITY_VERSION_STRING=L\"3.3.0-alpha-20230223\";AUDACITY_FILE_VERSION=L\"3,3,0,0\";PROHIBITED==delete;safenew=new;WXINTL_NO_GETTEXT_MACRO;_USE_MATH_DEFINES;NOMINMAX;IS_ALPHA;USE_ALPHA_MANUAL;wxUSE_GUI=0;_WX_APP_H_BASE_;_WX_EVTLOOP_H_;_WX_IMAGE_H;_WX_COLOUR_H_BASE_;_WX_BRUSH_H_BASE_;_WX_PEN_H_BASE_;AUDIO_IO_API=__declspec(dllexport);EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;PROJECT_RATE_API=__declspec(dllimport);PROJECT_API=__declspec(dllimport);REGISTRIES_API=__declspec(dllimport);PREFERENCES_API=__declspec(dllimport);BASIC_UI_API=__declspec(dllimport);STRINGS_API=__declspec(dllimport);WXUSINGDLL;__WXMSW__;wxNO_NET_LIB;wxNO_XML_LIB;wxNO_REGEX_LIB;wxNO_ZLIB_LIB;wxNO_JPEG_LIB;wxNO_PNG_LIB;wxNO_TIFF_LIB;wxNO_ADV_LIB;wxNO_HTML_LIB;wxNO_GL_LIB;wxNO_QA_LIB;wxNO_XRC_LIB;wxNO_AUI_LIB;wxNO_PROPGRID_LIB;wxNO_RIBBON_LIB;wxNO_RICHTEXT_LIB;wxNO_MEDIA_LIB;wxNO_STC_LIB;wxNO_WEBVIEW_LIB;COMPONENTS_API=__declspec(dllimport);UTILITY_API=__declspec(dllimport);EXCEPTIONS_API=__declspec(dllimport);XML_API=__declspec(dllimport);FILES_API=__declspec(dllimport);STRING_UTILS_API=__declspec(dllimport);AUDIO_DEVICES_API=__declspec(dllimport);USE_PORTMIXER=1;MATH_API=__declspec(dllimport);REALTIME_EFFECTS_API=__declspec(dllimport);MODULE_MANAGER_API=__declspec(dllimport);IPC_API=__declspec(dllimport);PROJECT_HISTORY_API=__declspec(dllimport);SCREEN_GEOMETRY_API=__declspec(dllimport);TRACK_API=__declspec(dllimport);TRANSACTIONS_API=__declspec(dllimport);SAMPLE_TRACK_API=__declspec(dllimport);AUDIO_GRAPH_API=__declspec(dllimport);CMAKE_INTDIR=\"MinSizeRel\";lib_audio_io_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib-project-rate\MinSizeRel\lib-project-rate.lib;..\lib-realtime-effects\MinSizeRel\lib-realtime-effects.lib;..\lib-sample-track\MinSizeRel\lib-sample-track.lib;..\lib-audio-devices\MinSizeRel\lib-audio-devices.lib;..\..\lib-src\portmixer\MinSizeRel\portmixer.lib;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\lib\portaudio_x64.lib;..\lib-module-manager\MinSizeRel\lib-module-manager.lib;..\lib-ipc\MinSizeRel\lib-ipc.lib;..\lib-project-history\MinSizeRel\lib-project-history.lib;..\lib-screen-geometry\MinSizeRel\lib-screen-geometry.lib;..\lib-transactions\MinSizeRel\lib-transactions.lib;..\lib-audio-graph\MinSizeRel\lib-audio-graph.lib;..\lib-math\MinSizeRel\lib-math.lib;..\..\cmake-proxies\libsoxr\MinSizeRel\libsoxr.lib;..\lib-track\MinSizeRel\lib-track.lib;..\lib-project\MinSizeRel\lib-project.lib;..\lib-registries\MinSizeRel\lib-registries.lib;..\lib-xml\MinSizeRel\lib-xml.lib;..\lib-files\MinSizeRel\lib-files.lib;..\lib-preferences\MinSizeRel\lib-preferences.lib;..\lib-components\MinSizeRel\lib-components.lib;..\lib-exceptions\MinSizeRel\lib-exceptions.lib;..\lib-basic-ui\MinSizeRel\lib-basic-ui.lib;..\lib-strings\MinSizeRel\lib-strings.lib;..\lib-utility\MinSizeRel\lib-utility.lib;..\lib-string-utils\MinSizeRel\lib-string-utils.lib;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\lib\vc_x64_dll\wxbase31u.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;wininet.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\lib\zdll.lib;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\lib\libexpat.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Workspace/audacity/visual_studio/libraries/lib-audio-io/MinSizeRel/lib-audio-io.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Workspace/audacity/visual_studio/$(Configuration)/lib-audio-io.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/giaco/.conan/data/zlib/1.2.11/_/_/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/expat/2.2.9/audacity/stable/package/ad5261bf6074807e7189c351b0f79b113bf2f6c0/include" /external:I "C:/Users/giaco/.conan/data/portaudio/19.7.0/_/_/package/f8004b13ba3d25eb6354835cd3e9101dc2e51cac/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <ForcedIncludeFiles>C:/Workspace/audacity/visual_studio/src/private/configwin.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UndefinePreprocessorDefinitions>_DEBUG</UndefinePreprocessorDefinitions>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;AUDACITY_VERSION=3;AUDACITY_RELEASE=3;AUDACITY_REVISION=0;AUDACITY_MODLEVEL=0;AUDACITY_VERSION_STRING=L"3.3.0-alpha-20230223";AUDACITY_FILE_VERSION=L"3,3,0,0";PROHIBITED==delete;safenew=new;WXINTL_NO_GETTEXT_MACRO;_USE_MATH_DEFINES;NOMINMAX;IS_ALPHA;USE_ALPHA_MANUAL;wxUSE_GUI=0;_WX_APP_H_BASE_;_WX_EVTLOOP_H_;_WX_IMAGE_H;_WX_COLOUR_H_BASE_;_WX_BRUSH_H_BASE_;_WX_PEN_H_BASE_;AUDIO_IO_API=__declspec(dllexport);EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;PROJECT_RATE_API=__declspec(dllimport);PROJECT_API=__declspec(dllimport);REGISTRIES_API=__declspec(dllimport);PREFERENCES_API=__declspec(dllimport);BASIC_UI_API=__declspec(dllimport);STRINGS_API=__declspec(dllimport);WXUSINGDLL;__WXMSW__;wxNO_NET_LIB;wxNO_XML_LIB;wxNO_REGEX_LIB;wxNO_ZLIB_LIB;wxNO_JPEG_LIB;wxNO_PNG_LIB;wxNO_TIFF_LIB;wxNO_ADV_LIB;wxNO_HTML_LIB;wxNO_GL_LIB;wxNO_QA_LIB;wxNO_XRC_LIB;wxNO_AUI_LIB;wxNO_PROPGRID_LIB;wxNO_RIBBON_LIB;wxNO_RICHTEXT_LIB;wxNO_MEDIA_LIB;wxNO_STC_LIB;wxNO_WEBVIEW_LIB;COMPONENTS_API=__declspec(dllimport);UTILITY_API=__declspec(dllimport);EXCEPTIONS_API=__declspec(dllimport);XML_API=__declspec(dllimport);FILES_API=__declspec(dllimport);STRING_UTILS_API=__declspec(dllimport);AUDIO_DEVICES_API=__declspec(dllimport);USE_PORTMIXER=1;MATH_API=__declspec(dllimport);REALTIME_EFFECTS_API=__declspec(dllimport);MODULE_MANAGER_API=__declspec(dllimport);IPC_API=__declspec(dllimport);PROJECT_HISTORY_API=__declspec(dllimport);SCREEN_GEOMETRY_API=__declspec(dllimport);TRACK_API=__declspec(dllimport);TRANSACTIONS_API=__declspec(dllimport);SAMPLE_TRACK_API=__declspec(dllimport);AUDIO_GRAPH_API=__declspec(dllimport);CMAKE_INTDIR="RelWithDebInfo";lib_audio_io_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_AMD64_;WIN32;_WINDOWS;NDEBUG;AUDACITY_VERSION=3;AUDACITY_RELEASE=3;AUDACITY_REVISION=0;AUDACITY_MODLEVEL=0;AUDACITY_VERSION_STRING=L\"3.3.0-alpha-20230223\";AUDACITY_FILE_VERSION=L\"3,3,0,0\";PROHIBITED==delete;safenew=new;WXINTL_NO_GETTEXT_MACRO;_USE_MATH_DEFINES;NOMINMAX;IS_ALPHA;USE_ALPHA_MANUAL;wxUSE_GUI=0;_WX_APP_H_BASE_;_WX_EVTLOOP_H_;_WX_IMAGE_H;_WX_COLOUR_H_BASE_;_WX_BRUSH_H_BASE_;_WX_PEN_H_BASE_;AUDIO_IO_API=__declspec(dllexport);EXPERIMENTAL_FULL_WASAPI;EXPERIMENTAL_SCIENCE_FILTERS;EXPERIMENTAL_KEY_VIEW;EXPERIMENTAL_NOTETRACK_OVERLAY;EXPERIMENTAL_HALF_WAVE;EXPERIMENTAL_THEMING;EXPERIMENTAL_ZOOM_TOGGLE_BUTTON;EXPERIMENTAL_SPECTRAL_EDITING;EXPERIMENTAL_MIDI_OUT;EXPERIMENTAL_MODULE_PREFS;EXPERIMENTAL_NOISE_REDUCTION;EXPERIMENTAL_NYQUIST_SPLIT_CONTROL;EXPERIMENTAL_SCRUBBING_SUPPORT;EXPERIMENTAL_SCROLLING_LIMITS;EXPERIMENTAL_TWO_TONE_TIME_RULER;EXPERIMENTAL_CRASH_REPORT;EXPERIMENTAL_PUNCH_AND_ROLL;EXPERIMENTAL_DRAGGABLE_PLAY_HEAD;EXPERIMENTAL_SCRUBBING_SCROLL_WHEEL;PROJECT_RATE_API=__declspec(dllimport);PROJECT_API=__declspec(dllimport);REGISTRIES_API=__declspec(dllimport);PREFERENCES_API=__declspec(dllimport);BASIC_UI_API=__declspec(dllimport);STRINGS_API=__declspec(dllimport);WXUSINGDLL;__WXMSW__;wxNO_NET_LIB;wxNO_XML_LIB;wxNO_REGEX_LIB;wxNO_ZLIB_LIB;wxNO_JPEG_LIB;wxNO_PNG_LIB;wxNO_TIFF_LIB;wxNO_ADV_LIB;wxNO_HTML_LIB;wxNO_GL_LIB;wxNO_QA_LIB;wxNO_XRC_LIB;wxNO_AUI_LIB;wxNO_PROPGRID_LIB;wxNO_RIBBON_LIB;wxNO_RICHTEXT_LIB;wxNO_MEDIA_LIB;wxNO_STC_LIB;wxNO_WEBVIEW_LIB;COMPONENTS_API=__declspec(dllimport);UTILITY_API=__declspec(dllimport);EXCEPTIONS_API=__declspec(dllimport);XML_API=__declspec(dllimport);FILES_API=__declspec(dllimport);STRING_UTILS_API=__declspec(dllimport);AUDIO_DEVICES_API=__declspec(dllimport);USE_PORTMIXER=1;MATH_API=__declspec(dllimport);REALTIME_EFFECTS_API=__declspec(dllimport);MODULE_MANAGER_API=__declspec(dllimport);IPC_API=__declspec(dllimport);PROJECT_HISTORY_API=__declspec(dllimport);SCREEN_GEOMETRY_API=__declspec(dllimport);TRACK_API=__declspec(dllimport);TRANSACTIONS_API=__declspec(dllimport);SAMPLE_TRACK_API=__declspec(dllimport);AUDIO_GRAPH_API=__declspec(dllimport);CMAKE_INTDIR=\"RelWithDebInfo\";lib_audio_io_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Workspace\audacity\libraries\lib-audio-io;C:\Workspace\audacity\libraries\lib-project-rate;C:\Workspace\audacity\libraries\lib-project;C:\Workspace\audacity\libraries\lib-registries;C:\Workspace\audacity\libraries\lib-preferences;C:\Workspace\audacity\libraries\lib-basic-ui;C:\Workspace\audacity\libraries\lib-strings;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\include\msvc;C:\Workspace\audacity\libraries\lib-components;C:\Workspace\audacity\libraries\lib-utility;C:\Workspace\audacity\libraries\lib-exceptions;C:\Workspace\audacity\libraries\lib-xml;C:\Workspace\audacity\libraries\lib-files;C:\Workspace\audacity\libraries\lib-string-utils;C:\Workspace\audacity\libraries\lib-audio-devices;C:\Workspace\audacity\lib-src\portmixer\include;C:\Workspace\audacity\libraries\lib-math;C:\Workspace\audacity\lib-src\libsoxr\src;C:\Workspace\audacity\libraries\lib-realtime-effects;C:\Workspace\audacity\libraries\lib-module-manager;C:\Workspace\audacity\libraries\lib-ipc;C:\Workspace\audacity\libraries\lib-project-history;C:\Workspace\audacity\libraries\lib-screen-geometry;C:\Workspace\audacity\libraries\lib-track;C:\Workspace\audacity\libraries\lib-transactions;C:\Workspace\audacity\libraries\lib-sample-track;C:\Workspace\audacity\libraries\lib-audio-graph;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\include;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib-project-rate\RelWithDebInfo\lib-project-rate.lib;..\lib-realtime-effects\RelWithDebInfo\lib-realtime-effects.lib;..\lib-sample-track\RelWithDebInfo\lib-sample-track.lib;..\lib-audio-devices\RelWithDebInfo\lib-audio-devices.lib;..\..\lib-src\portmixer\RelWithDebInfo\portmixer.lib;C:\Users\giaco\.conan\data\portaudio\19.7.0\_\_\package\f8004b13ba3d25eb6354835cd3e9101dc2e51cac\lib\portaudio_x64.lib;..\lib-module-manager\RelWithDebInfo\lib-module-manager.lib;..\lib-ipc\RelWithDebInfo\lib-ipc.lib;..\lib-project-history\RelWithDebInfo\lib-project-history.lib;..\lib-screen-geometry\RelWithDebInfo\lib-screen-geometry.lib;..\lib-transactions\RelWithDebInfo\lib-transactions.lib;..\lib-audio-graph\RelWithDebInfo\lib-audio-graph.lib;..\lib-math\RelWithDebInfo\lib-math.lib;..\..\cmake-proxies\libsoxr\RelWithDebInfo\libsoxr.lib;..\lib-track\RelWithDebInfo\lib-track.lib;..\lib-project\RelWithDebInfo\lib-project.lib;..\lib-registries\RelWithDebInfo\lib-registries.lib;..\lib-xml\RelWithDebInfo\lib-xml.lib;..\lib-files\RelWithDebInfo\lib-files.lib;..\lib-preferences\RelWithDebInfo\lib-preferences.lib;..\lib-components\RelWithDebInfo\lib-components.lib;..\lib-exceptions\RelWithDebInfo\lib-exceptions.lib;..\lib-basic-ui\RelWithDebInfo\lib-basic-ui.lib;..\lib-strings\RelWithDebInfo\lib-strings.lib;..\lib-utility\RelWithDebInfo\lib-utility.lib;..\lib-string-utils\RelWithDebInfo\lib-string-utils.lib;C:\Users\giaco\.conan\data\wxwidgets\3.1.3.4-audacity\_\_\package\fa2df25618b85785b64ca20d59cd65194f8e6bc7\lib\vc_x64_dll\wxbase31u.lib;kernel32.lib;user32.lib;gdi32.lib;comdlg32.lib;winspool.lib;shell32.lib;comctl32.lib;ole32.lib;oleaut32.lib;uuid.lib;wininet.lib;rpcrt4.lib;winmm.lib;advapi32.lib;wsock32.lib;C:\Users\giaco\.conan\data\zlib\1.2.11\_\_\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\lib\zdll.lib;C:\Users\giaco\.conan\data\expat\2.2.9\audacity\stable\package\ad5261bf6074807e7189c351b0f79b113bf2f6c0\lib\libexpat.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Workspace/audacity/visual_studio/libraries/lib-audio-io/RelWithDebInfo/lib-audio-io.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Workspace/audacity/visual_studio/$(Configuration)/lib-audio-io.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\libraries\lib-audio-io\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Workspace/audacity/libraries/lib-audio-io/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/libraries/lib-audio-io/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Workspace\audacity\visual_studio\libraries\lib-audio-io\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Workspace/audacity/libraries/lib-audio-io/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/libraries/lib-audio-io/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Workspace\audacity\visual_studio\libraries\lib-audio-io\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Workspace/audacity/libraries/lib-audio-io/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/libraries/lib-audio-io/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Workspace\audacity\visual_studio\libraries\lib-audio-io\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Workspace/audacity/libraries/lib-audio-io/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Workspace/audacity -BC:/Workspace/audacity/visual_studio --check-stamp-file C:/Workspace/audacity/visual_studio/libraries/lib-audio-io/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Workspace\audacity\visual_studio\libraries\lib-audio-io\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-audio-io\AudioIO.cpp" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-audio-io\AudioIO.h" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-audio-io\AudioIOExt.cpp" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-audio-io\AudioIOExt.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-audio-io\AudioIOListener.h" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-audio-io\PlaybackSchedule.cpp" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-audio-io\PlaybackSchedule.h" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-audio-io\ProjectAudioIO.cpp" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-audio-io\ProjectAudioIO.h" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-audio-io\RingBuffer.cpp" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-audio-io\RingBuffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\ZERO_CHECK.vcxproj">
+      <Project>{5C83DB05-B105-3759-BC44-A10D37C5FC96}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-audio-devices\lib-audio-devices.vcxproj">
+      <Project>{52967C35-ABBE-35BF-838B-FFBC8D1CA2EB}</Project>
+      <Name>lib-audio-devices</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-audio-graph\lib-audio-graph.vcxproj">
+      <Project>{0ECA4440-55EA-3CAB-8705-F077CCC319B2}</Project>
+      <Name>lib-audio-graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-basic-ui\lib-basic-ui.vcxproj">
+      <Project>{95A8843C-11EE-3828-8796-1119AED2E225}</Project>
+      <Name>lib-basic-ui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-components\lib-components.vcxproj">
+      <Project>{B2D68DAA-E105-3B5F-A666-4A62414D46A2}</Project>
+      <Name>lib-components</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-exceptions\lib-exceptions.vcxproj">
+      <Project>{BDC190DD-AAD3-3F8B-89C1-A257D19CD0B7}</Project>
+      <Name>lib-exceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-files\lib-files.vcxproj">
+      <Project>{9FFF0399-135A-38B6-BA84-EACFE4689AD6}</Project>
+      <Name>lib-files</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-ipc\lib-ipc.vcxproj">
+      <Project>{2A2A1C79-FFCC-3777-B52B-08C02AB5086B}</Project>
+      <Name>lib-ipc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-math\lib-math.vcxproj">
+      <Project>{36A5677C-D5FD-350A-A491-3A6B07A1601B}</Project>
+      <Name>lib-math</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-module-manager\lib-module-manager.vcxproj">
+      <Project>{680FCB72-F996-3E84-8ABF-3CCC3DC6DE76}</Project>
+      <Name>lib-module-manager</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-preferences\lib-preferences.vcxproj">
+      <Project>{F3013AED-10D6-3CF9-84C5-D36EA1C2E514}</Project>
+      <Name>lib-preferences</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-project\lib-project.vcxproj">
+      <Project>{59146541-7F96-3FB4-AC56-52E30D645CD4}</Project>
+      <Name>lib-project</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-project-history\lib-project-history.vcxproj">
+      <Project>{B406BE7B-A2B3-3C65-B599-BE49065025E9}</Project>
+      <Name>lib-project-history</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-project-rate\lib-project-rate.vcxproj">
+      <Project>{C4788356-BCA8-3A99-B0F6-034C6A56E843}</Project>
+      <Name>lib-project-rate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-realtime-effects\lib-realtime-effects.vcxproj">
+      <Project>{27906AB1-BB62-3DDD-B8B7-BE7BF793D482}</Project>
+      <Name>lib-realtime-effects</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-registries\lib-registries.vcxproj">
+      <Project>{2FE6E9FA-FE82-3C68-9F0C-A1A599908E38}</Project>
+      <Name>lib-registries</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-sample-track\lib-sample-track.vcxproj">
+      <Project>{CEBFDCD3-9B64-3EC1-AE9E-C25D78B296E8}</Project>
+      <Name>lib-sample-track</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-screen-geometry\lib-screen-geometry.vcxproj">
+      <Project>{C660334E-26EE-3C71-86C3-176552CCD463}</Project>
+      <Name>lib-screen-geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-string-utils\lib-string-utils.vcxproj">
+      <Project>{9380F9AF-EA7E-3CEF-ADD0-376FE679C796}</Project>
+      <Name>lib-string-utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-strings\lib-strings.vcxproj">
+      <Project>{0EE1CC74-1C20-3D95-A1ED-EBEC428B3965}</Project>
+      <Name>lib-strings</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-track\lib-track.vcxproj">
+      <Project>{CEB4E28F-113D-3EB3-A005-D19E56B50BFC}</Project>
+      <Name>lib-track</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-transactions\lib-transactions.vcxproj">
+      <Project>{4043E4AB-8166-3088-8065-EEDEA4A0BF84}</Project>
+      <Name>lib-transactions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-utility\lib-utility.vcxproj">
+      <Project>{1577ABFD-068D-34FB-8BC8-E585811659D6}</Project>
+      <Name>lib-utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\libraries\lib-xml\lib-xml.vcxproj">
+      <Project>{4257A0AA-E255-3F0C-943A-4BED5BF36E09}</Project>
+      <Name>lib-xml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\cmake-proxies\libsoxr\libsoxr.vcxproj">
+      <Project>{5F74D50E-7301-3EF0-BE04-7E2CD4FA055A}</Project>
+      <Name>libsoxr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Workspace\audacity\visual_studio\lib-src\portmixer\portmixer.vcxproj">
+      <Project>{6A0B0EF5-A772-3374-96DA-09DADFE16F60}</Project>
+      <Name>portmixer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

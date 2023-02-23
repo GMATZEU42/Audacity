@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-math\Dither.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-math\FFT.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-math\InterpolateAudio.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-math\Matrix.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-math\RealFFTf.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-math\Resample.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-math\SampleCount.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-math\SampleFormat.cpp" />
+    <ClCompile Include="C:\Workspace\audacity\libraries\lib-math\Spectrum.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\Dither.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\FFT.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\InterpolateAudio.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\Matrix.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\RealFFTf.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\Resample.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\SampleCount.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\SampleFormat.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\Spectrum.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\float_cast.h" />
+    <ClInclude Include="C:\Workspace\audacity\libraries\lib-math\Gain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Workspace\audacity\libraries\lib-math\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
